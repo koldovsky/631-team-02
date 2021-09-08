@@ -1,397 +1,586 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div> <!--VUNTESMERY-->
-        <div class="shop"id="shop" > <!--Shop-->
-        <h6>SHOP</h6>
-        <h1>Best Prices<span>.</span></h1>
-        <hr align="centre" color="orange" size="2" width="50">
-        <br>
-        <span>Buy a musical instrument you've always dreamed of.</span>
+
+    <header>
+        <div class="Welcome to Store">
+            <div class="Welcome">Welcome to Our Musical Instruments Store!</div>
+            <div class="email">sound@email.com</div>
+            <div class="tel">+1 (234) 567 89 00</div>
+
         </div>
-        <div class= button_section id="button_section"> <!--Sections-->
-            <div>
-                <a href="/#eg_guitar">Electric Guitars</a>
-            </div>
-            <div>
-                <a href="/#ag_guitar">Acoustic Guitars</a>
-            </div>
-            <div>
-                <a href="/#drums">Drums</a>
-            </div>
-            <div>
-                <a href="/#orchestric">Orchestric</a>
-            </div>
-            <div>
-                <a href="/#other">Other</a>
-            </div>
+        <div class="subheader">
+
         </div>
-        <div>
-            <div class="eg_guitar" id="eg_guitar"> <!--Electric Guitars-->
+    </header>
+    <main>
+        <section class="Best-Selling-Instruments">
+            <p>OUR CHOICE</p>
+            <br>
+            <h1>Best-Selling Instruments.</h1>
+            <hr align="centre" color="orange" size="2" width="50">
+            <br>
+            <p>Click on the image to open the product card with full description.
+            </p>
+            <div class="karuselka">
+                <div class="drum">
+                    <img src="ivaniv/drum.jpg" alt="drum" width="100">
+                    <p>Ericson Black&White Snare Drum</p>
+                    <p>$115.00</p>
+                    <a>Add to Cart</a>
+                </div>
+                <div class="gitara">
+                    <img src="ivaniv/gitara.jpg" alt="gitara" width="100">
+                    <p>Jackson RI405 Electric Guitar</p>
+                    <p>$300.00</p>
+                    <a>Add to Cart</a>
+                </div>
+                <div class="saxofon">
+                    <img src="ivaniv/saxofon.jpg" alt="saxofon" width="100">
+                    <p>Donny Stavanger SRT12 Alto Saxophone</p>
+                    <p>$450.00</p>
+                    <a>Add to Cart</a>
+                </div>
+                <div class="buben">
+                    <img src="ivaniv/buben.jpg" alt="buben" width="100">
+                    <p>Jiwa Studio JWL100 Single Row Tambourine</p>
+                    <p>$50.00</p>
+                    <a>Add to Cart</a>
+                </div>
+                <div class="redgitara">
+                    <img src="ivaniv/redgitara.jpg" alt="redgitara" width="100">
+                    <p>Winston WR-100 Electric Guitar</p>
+                    <p>$320.00</p>
+                    <a>Add to Cart</a>
+                </div>
+            </div>
+            <div class="GUITAR OF THE MONTH">
+                <p>GUITAR OF THE MONTH</p>
+                <h2>Guitar Peacock RD200.</h2>
+                <hr align="centre" color="orange" size="2" width="50">
+                <p>Peacock RD200 is a simple yet stylish and practical guitar specially designed for beginners and
+                    students. This model can be your first guitar no matter who you are, how old you are, or what style
+                    of music you want to play. With classic features that Peacock is famous for, RD200 is a great choice
+                    for everyone who likes eye-catching things. There are more colors, ask our support team.
+                    Now it's your perfect chance to become a happy owner of the Peacock RD200 electric guitar. We have
+                    significantly reduced the price of this model. In April only, you can buy it starting from $199.00!
+                    Please note that the case for this guitar is sold separately. Don't miss your chance to get a
+                    high-class guitar!</p>
+                <img src="ivaniv/yelowgitara.webp" alt="yellowgitara" width="100">
+                <div id="countdown">
+                    <p><span class="days">356</span>days</p>
+                    <p><span class="hours">12</span>hours</p>
+                    <p><span class="minutes">30</span>minutes</p>
+                    <p><span class="seconds">12</span>seconds</p>
+
+                </div>
+            </div>
+
+        </section>
+        <!--section on sale. shows discounted products. written by Dima Diachkov-->
+        <section class="on-sale">
+            <h2>On Sale.</h2>
+            <hr align="left" color="orange" size="2" width="50">
+            <p>The promotion ends really soon. Hurry Up!
+            </p>
+            <div id="another-countdown">
+                <ul>
+                    <li><span id="days"></span>days</li>
+                    <li><span id="hours"></span>Hours</li>
+                    <li><span id="minutes"></span>Minutes</li>
+                    <li><span id="seconds"></span>Seconds</li>
+                </ul>
+            </div>
+            <div class="block-preview-product-cards">
+                <div class="product-cards">
+                    <img src="dima-diachkov/dowson-ddr100-acoustic-guitar.jpg" alt="" width="200">
+                    <p>Dowson DDR100 Acoustic Guitar</p>
+                    <p>$180</p>
+                    <a href="#">Add to cart</a>
+                </div>
+                <div class="product-cards">
+                    <img src="dima-diachkov/aer-bass-horn.jpg" alt="" width="200">
+                    <p>AER B-Flat Professional Bass Horn</p>
+                    <p>$300</p>
+                    <a href="#">Add to cart</a>
+                </div>
+                <div class="product-cards">
+                    <img src="dima-diachkov/student-violin.jpg" alt="" width="200">
+                    <p>Lewis Lewel ST-1 Student Violin</p>
+                    <p>$200</p>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+        </section>
+        <section> <!--VUNTESMERI-->
+            <div class="shop"id="shop" > <!--Shop-->
+            <h6>SHOP</h6>
+            <h1>Best Prices<span>.</span></h1>
+            <hr align="centre" color="orange" size="2" width="50">
+            <br>
+            <span>Buy a musical instrument you've always dreamed of.</span>
+            </div>
+            <div class= button_section id="button_section"> <!--Sections-->
+                <div>
+                    <a href="/#eg_guitar">Electric Guitars</a>
+                </div>
+                <div>
+                    <a href="/#ag_guitar">Acoustic Guitars</a>
+                </div>
+                <div>
+                    <a href="/#drums">Drums</a>
+                </div>
+                <div>
+                    <a href="/#orchestric">Orchestric</a>
+                </div>
+                <div>
+                    <a href="/#other">Other</a>
+                </div>
+            </div>
+            <div>
+                <div class="eg_guitar" id="eg_guitar"> <!--Electric Guitars-->
+                    <div>
+                        <div>
+                        <a href="page_guitar_RB500">
+                        <img src="img/electric_guitar_RB500.jpg" alt="Raven Bee RB500 Exotic Style Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_RB500" >Raven Bee RB500 Exotic Style Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$450.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                        <a href="page_guitar_ER100">
+                        <img src="img/electric_guitar_ER100.jpg" alt="Dickson Studio ER100 Electric Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_ER100" >Dickson Studio ER100 Electric Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$180.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                        <a href="page_guitar_TRO4506">
+                        <img src="img/electric_guitar_TRO4506.jpg" alt="Dean Doe TRO4506 Electric Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_TRO4506" >Dean Doe TRO4506 Electric Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$220.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_guitar_RT45">
+                        <img src="img/electric_guitar_RT45.jpg" alt="Raven Classic RT45 Electric Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_RT45" >Raven Classic RT45 Electric Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$300.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ag_guitar" id="ag_guitar">  <!--Acoustic-Electric/-->  
+                    <div> 
+                        <div>
+                        <a href="page_guitar_VV02">
+                        <img src="img/acoustic_guitar_VV02.jpg" alt="Deanson VV02 Acoustic Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_VV02" >Deanson VV02 Acoustic Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$112.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_guitar_S_35">
+                        <img src="img/acoustic_guitar_S_35.jpg" alt="Kuro Music Studio S-35 Acoustic Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_S_35" >Kuro Music Studio S-35 Acoustic Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$105.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_guitar_RT1">
+                        <img src="img/acoustic_guitar_RT1.jpg" alt="Raven RT1 Acoustic-Electric Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_RT1" >Raven RT1 Acoustic-Electric Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$110.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_guitar_RA_090">
+                        <img src="img/acoustic_guitar_RA_090.jpg" alt="Fogue RA-090 Acoustic Guitar">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_guitar_RA_090" >Fogue RA-090 Acoustic Guitar</a>
+                        </div>
+                        <div>
+                            <spin>$110.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="drums" id="drums">  <!--Drums/-->  
+                    <div> 
+                        <div>
+                        <a href="page_drums_BWL1000">
+                        <img src="img/drums_BWL1000.jpg" alt="BlueWater BWL1000 Ultimate Snare Drum">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_drums_BWL1000" >BlueWater BWL1000 Ultimate Snare Drum</a>
+                        </div>
+                        <div>
+                            <spin>$145.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_drums_Black&White">
+                        <img src="img/drums_Black&White.jpg" alt="Ericson Black&White Snare Drum">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_drums_Black&White" >Ericson Black&White Snare Drum</a>
+                        </div>
+                        <div>
+                            <spin>$115.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_drums_White_Cristal">
+                        <img src="img/drums_White_Cristal.jpg" alt="Ericson White Crystal Snare Drum">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_drums_White_Cristal" >Ericson White Crystal Snare Drum</a>
+                        </div>
+                        <div>
+                            <spin>$115.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_drums_Beach_Wood">
+                        <img src="img/drums_Beach_Wood.jpg" alt="Ericson Beech Wood Snare Drum">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_drums_Beach_Wood" >Ericson Beech Wood Snare Drum</a>
+                        </div>
+                        <div>
+                            <spin>$115.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="orchestric" id="orchestric">  <!--Orchestric-->  
+                    <div> 
+                        <div>
+                        <a href="page_orchestric_STR12">
+                        <img src="img/orchestric_SRT12.jpg" alt="Donny Stavanger SRT12 Alto Saxophone">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_orchestric_STR12" >Donny Stavanger SRT12 Alto Saxophone</a>
+                        </div>
+                        <div>
+                            <spin>$450.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_orchectric_SR-V">
+                        <img src="img/orchestric_SR-V.jpg" alt="Simona SR-V Professional Violin">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_orchectric_SR-V" >Simona SR-V Professional Violin</a>
+                        </div>
+                        <div>
+                            <spin>$700.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_orchestric_AER_B-Flat">
+                        <img src="img/orchestric_AER_B-Flat.jpg" alt="AER B-Flat Professional Bass Horn">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_orchestric_AER_B-Flat" >AER B-Flat Professional Bass Horn</a>
+                        </div>
+                        <div>
+                            <spin>$300.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_orchestric_MB">
+                        <img src="img/orchestric_MB.jpg" alt="Muratti Professional MB Oboe">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_orchestric_MB" >Muratti Professional MB Oboe</a>
+                        </div>
+                        <div>
+                            <spin>$900.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="other" id="other">  <!--Other-->  
+                    <div> 
+                        <div>
+                        <a href="page_other_JWL100">
+                        <img src="img/other_JWL100.jpg" alt="Jiwa Studio JWL100 Single Row Tambourine">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_other_JWL100" >Jiwa Studio JWL100 Single Row Tambourine</a>
+                        </div>
+                        <div>
+                            <spin>$50.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_other_KK400">
+                        <img src="img/other_KK400.jpg" alt="Kurumba KK400 Bongo Drum in Green">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_other_KK400" >Kurumba KK400 Bongo Drum in Green</a>
+                        </div>
+                        <div>
+                            <spin>$89.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_other_AT1">
+                        <img src="img/other_AT1.jpg" alt="Bosner AT1 Accordion in Gold">
+                        </a>
+                        </div>
+                        <div>
+                        <a href=""page_other_AT1" >Bosner AT1 Accordion in Gold</a>
+                        </div>
+                        <div>
+                            <spin>$160.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div> 
+                        <div>
+                        <a href="page_other_ERX3">
+                        <img src="img/other_ERX3.jpg" alt="Hohner Silver Star ERX3 Harmonica">
+                        </a>
+                        </div>
+                        <div>
+                        <a href="page_other_ERX3" >Hohner Silver Star ERX3 Harmonica</a>
+                        </div>
+                        <div>
+                            <spin>$67.00</spin>
+                        </div>
+                        <div>
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="drum_set" id="drum_set"> <!--drum set-->
+                <div>
+                    <h6>DRUM SET</h6>
+                </div>
+                <div>
+                    <h1>Horton Brown Maple 5-Piece Shell Pack<span>.</span></h1>
+                </div>
+                <div>
+                    <p>5-piece Maple Electronic Drum Set with 12" Snare, 18" Kick, 10/10/12" Toms, 2x 12" Crash Cymbals, 13" Ride Cymbal, 12" Hi-Hats.</p>
+                </div>
                 <div>
                     <div>
-                    <a href="page_guitar_RB500">
-                    <img src="img/electric_guitar_RB500.jpg" alt="Raven Bee RB500 Exotic Style Guitar">
-                    </a>
+                        <spin>$3,100.99</spin>
                     </div>
                     <div>
-                    <a href="page_guitar_RB500" >Raven Bee RB500 Exotic Style Guitar</a>
+                        <spin>$2,599</spin>
                     </div>
                     <div>
-                        <spin>$450.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
+                        <a href="/#up to 40% off">Shop Now</a>
+                        <button type="button">Shop Now</button>
                     </div>
                 </div>
                 <div>
-                    <div>
-                    <a href="page_guitar_ER100">
-                    <img src="img/electric_guitar_ER100.jpg" alt="Dickson Studio ER100 Electric Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_ER100" >Dickson Studio ER100 Electric Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$180.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
+                    <img src="img/Drums_Horton_Brown.jpg" alt="Horton Brown Maple 5-Piece Shell Pack">
                 </div>
-                <div>
-                    <div>
-                    <a href="page_guitar_TRO4506">
-                    <img src="img/electric_guitar_TRO4506.jpg" alt="Dean Doe TRO4506 Electric Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_TRO4506" >Dean Doe TRO4506 Electric Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$220.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_guitar_RT45">
-                    <img src="img/electric_guitar_RT45.jpg" alt="Raven Classic RT45 Electric Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_RT45" >Raven Classic RT45 Electric Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$300.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
+               
             </div>
-            <div class="ag_guitar" id="ag_guitar">  <!--Acoustic-Electric/-->  
-                <div> 
-                    <div>
-                    <a href="page_guitar_VV02">
-                    <img src="img/acoustic_guitar_VV02.jpg" alt="Deanson VV02 Acoustic Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_VV02" >Deanson VV02 Acoustic Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$112.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_guitar_S_35">
-                    <img src="img/acoustic_guitar_S_35.jpg" alt="Kuro Music Studio S-35 Acoustic Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_S_35" >Kuro Music Studio S-35 Acoustic Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$105.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_guitar_RT1">
-                    <img src="img/acoustic_guitar_RT1.jpg" alt="Raven RT1 Acoustic-Electric Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_RT1" >Raven RT1 Acoustic-Electric Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$110.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_guitar_RA_090">
-                    <img src="img/acoustic_guitar_RA_090.jpg" alt="Fogue RA-090 Acoustic Guitar">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_guitar_RA_090" >Fogue RA-090 Acoustic Guitar</a>
-                    </div>
-                    <div>
-                        <spin>$110.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-            <div class="drums" id="drums">  <!--Drums/-->  
-                <div> 
-                    <div>
-                    <a href="page_drums_BWL1000">
-                    <img src="img/drums_BWL1000.jpg" alt="BlueWater BWL1000 Ultimate Snare Drum">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_drums_BWL1000" >BlueWater BWL1000 Ultimate Snare Drum</a>
-                    </div>
-                    <div>
-                        <spin>$145.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_drums_Black&White">
-                    <img src="img/drums_Black&White.jpg" alt="Ericson Black&White Snare Drum">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_drums_Black&White" >Ericson Black&White Snare Drum</a>
-                    </div>
-                    <div>
-                        <spin>$115.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_drums_White_Cristal">
-                    <img src="img/drums_White_Cristal.jpg" alt="Ericson White Crystal Snare Drum">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_drums_White_Cristal" >Ericson White Crystal Snare Drum</a>
-                    </div>
-                    <div>
-                        <spin>$115.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_drums_Beach_Wood">
-                    <img src="img/drums_Beach_Wood.jpg" alt="Ericson Beech Wood Snare Drum">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_drums_Beach_Wood" >Ericson Beech Wood Snare Drum</a>
-                    </div>
-                    <div>
-                        <spin>$115.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-            <div class="orchestric" id="orchestric">  <!--Orchestric-->  
-                <div> 
-                    <div>
-                    <a href="page_orchestric_STR12">
-                    <img src="img/orchestric_SRT12.jpg" alt="Donny Stavanger SRT12 Alto Saxophone">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_orchestric_STR12" >Donny Stavanger SRT12 Alto Saxophone</a>
-                    </div>
-                    <div>
-                        <spin>$450.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_orchectric_SR-V">
-                    <img src="img/orchestric_SR-V.jpg" alt="Simona SR-V Professional Violin">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_orchectric_SR-V" >Simona SR-V Professional Violin</a>
-                    </div>
-                    <div>
-                        <spin>$700.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_orchestric_AER_B-Flat">
-                    <img src="img/orchestric_AER_B-Flat.jpg" alt="AER B-Flat Professional Bass Horn">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_orchestric_AER_B-Flat" >AER B-Flat Professional Bass Horn</a>
-                    </div>
-                    <div>
-                        <spin>$300.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_orchestric_MB">
-                    <img src="img/orchestric_MB.jpg" alt="Muratti Professional MB Oboe">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_orchestric_MB" >Muratti Professional MB Oboe</a>
-                    </div>
-                    <div>
-                        <spin>$900.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-            <div class="other" id="other">  <!--Other-->  
-                <div> 
-                    <div>
-                    <a href="page_other_JWL100">
-                    <img src="img/other_JWL100.jpg" alt="Jiwa Studio JWL100 Single Row Tambourine">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_other_JWL100" >Jiwa Studio JWL100 Single Row Tambourine</a>
-                    </div>
-                    <div>
-                        <spin>$50.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_other_KK400">
-                    <img src="img/other_KK400.jpg" alt="Kurumba KK400 Bongo Drum in Green">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_other_KK400" >Kurumba KK400 Bongo Drum in Green</a>
-                    </div>
-                    <div>
-                        <spin>$89.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_other_AT1">
-                    <img src="img/other_AT1.jpg" alt="Bosner AT1 Accordion in Gold">
-                    </a>
-                    </div>
-                    <div>
-                    <a href=""page_other_AT1" >Bosner AT1 Accordion in Gold</a>
-                    </div>
-                    <div>
-                        <spin>$160.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-                <div> 
-                    <div>
-                    <a href="page_other_ERX3">
-                    <img src="img/other_ERX3.jpg" alt="Hohner Silver Star ERX3 Harmonica">
-                    </a>
-                    </div>
-                    <div>
-                    <a href="page_other_ERX3" >Hohner Silver Star ERX3 Harmonica</a>
-                    </div>
-                    <div>
-                        <spin>$67.00</spin>
-                    </div>
-                    <div>
-                        <button type="button">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
+         
+        </section> <!--end VUNTESMERI-->
+    </main>
+
+
+    <!-- Contacts+footer -->
+
+    <div id="signup">
+        <p>Special rates for new clients. — Sign up to get 15% off on your order!</p>
+        <div id="button_sign">
+            <button onclick="">Sign up</button>
         </div>
-        <div class="drum_set" id="drum_set"> <!--drum set-->
-            <div>
-                <h6>DRUM SET</h6>
-            </div>
-            <div>
-                <h1>Horton Brown Maple 5-Piece Shell Pack<span>.</span></h1>
-            </div>
-            <div>
-                <p>5-piece Maple Electronic Drum Set with 12" Snare, 18" Kick, 10/10/12" Toms, 2x 12" Crash Cymbals, 13" Ride Cymbal, 12" Hi-Hats.</p>
-            </div>
-            <div>
-                <div>
-                    <spin>$3,100.99</spin>
-                </div>
-                <div>
-                    <spin>$2,599</spin>
-                </div>
-                <div>
-                    <a href="/#up to 40% off">Shop Now</a>
-                    <button type="button">Shop Now</button>
-                </div>
-            </div>
-            <div>
-                <img src="img/Drums_Horton_Brown.jpg" alt="Horton Brown Maple 5-Piece Shell Pack">
-            </div>
-           
-        </div>
-     
     </div>
+    <div id="contacts">
+        <img src="zavhorodnia/logo.jpg" alt="Лого">
+        <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies. Shipping
+            worldwide!</p>
+        <p>Have a question?</p>
+        <p>Call us any time!</p>
+        <p><a href="#">+1 (234) 567 8900</a></p>
+        <p>Write to us!</p>
+        <p>We're here for you 24/7!</p>
+        <p><a href="#">sound@email.com</a></p>
+        <form id="email">
+            <input type="text" placeholder="Email" size="40">
+            <div id="button_email">
+                <button onclick="">Sign up to Our Newsletter</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="links">
+        <div id="quick_links">
+            <h3>Quick Links.</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Affilate</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+        <div id="company">
+            <h3>Company.</h3>
+            <ul>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Product Support</a></li>
+            </ul>
+        </div>
+        <div id="shop">
+            <h3>Shop.</h3>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Instrument</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </div>
+        <div id="customer_care">
+            <h3>Customer Care.</h3>
+            <ul>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Nerm & Condition</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Created by</p>
+        <p>All rights Reserved</p>
+    </footer>
+
+    <!--end of contacts and footer-->
 </body>
+
 </html>
