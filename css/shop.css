@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+section.shop div.shop_title h2 {
+    color: #f8b803;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+section.shop div.shop_title {
+    /* box-sizing: border-box; */
+    margin: auto;
+}
+section.shop div.shop_title h3 {
+    color: #242424;
+    font-size: 34px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    margin: 40, 0px;
+}
+section.shop div.shop_title h3 span {
+    color: #f8b803;
+    
+}
+.hr_line {
+    margin: auto;
+}
+
+section.shop div.shop_title p {
+    color: #777;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    
+}
+div.shop_button_section a {
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+div.shop_button_section a:hover {
+    color: #242424;
+    }
+
+div.shop_button_section div  {
+    display: inline-block;
+    padding: 60px;
+}
