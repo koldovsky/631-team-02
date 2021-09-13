@@ -7,6 +7,12 @@ section.on-sale h2 {
     border: 0;
 }
 
+section.on-sale span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .on-sale {
     font-family: 'Work Sans', sans-serif;
 }
