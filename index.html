@@ -8,23 +8,145 @@
     <link rel="shortcut icon" href="dima-diachkov/favicon.ico">
     <link rel="stylesheet" href="css/bestselling.css">
     <link rel="stylesheet" href="css/on-sale.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="css/style-header.css">
+=======
+    <link rel="stylesheet" href="css/footer.css">
+>>>>>>> 1349a915fb596220f2cf364d2775b6fb8c4f28d7
     <title>Instrumental store</title>
 </head>
 
 <body>
 
     <header>
-        <div class="Welcome-to-Store">
-            <div class="Welcome">Welcome to Our Musical Instruments Store!</div>
-            <div class="email">sound@email.com</div>
-            <div class="tel">+1 (234) 567 89 00</div>
+        <div class="welcome-line">
+            <div class="welcome-line-container">
+                <div class="welcome-store">Welcome to Our Musical Instruments Store!</div>
+                <div class="plaseholder"></div>
+                <div class="welcome-store-right">
+                    <div class="email"><a href="mailto:ask@htmlbook.ru">sound@email.com</a></div>
+                    <div class="tel"><a href="tel:+">+1 (234) 567 89 00</a></div>
+                </div>
+            </div>
 
         </div>
         <div class="subheader">
+            <div class="subheader-container">
+                <div class="logo-header">
+                    <a href="#"><img src="img/img-header/logo-header.svg" alt="" height="37px"></a>
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul id="navbar">
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Best-Selling</a></li>
+                            <li><a href="#">Guitars</a></li>
+                            <li><a href="#">Drums</a></li>
+                            <li><a href="#">Orchestric</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="social-logo">
+                    <div class="fb">fb
+                        <!--<img src="img/logo-social/fb-white-logo.png" alt="">-->
+                    </div>
+                    <div class="insta">IN</div>
+                    <div class="youtube">YT</div>
+                </div>
+
+            </div>
 
         </div>
     </header>
     <main>
+        <!--BEGIN section header, first-screen, benefits, big-sale, mc-slider dev S.D.-->
+        <section>
+            <div class="first-screen">
+                <div class="first-screen-conteiner">
+                    <div class="first-screen-text-one">MUSICAL INSTRUMENTS STORE</div>
+                    <div class="first-screen-text-two">
+                        We Have <span class="everything">Everything</span> <br>
+                        Any Musician May<br>
+                        Need<span class="point">.</span>
+                    </div>
+                    <div class="line-yellow"></div>
+                    <div class="first-screen-text-three">Instruments, equipment & supplies from <span
+                            class="from-50">$50.00</span> </div>
+                    <div class="first-screen-bottom">
+                        <button><a href="#">Shop Now</a> </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="benefits">
+                <div class="benefits-container">
+                    <div class="benefit-block-one">
+                        <div class="benefits-icon"><img src="img/img-header/icon-benefits/free_delivery.svg" alt="free_delivery">
+                        </div>
+                        <div class="benefits-title">Free Delivery</div>
+                        <div class="benefits-text">For all oders over $300</div>
+                    </div>
+                    <div class="benefit-block-two">
+                        <div class="benefits-icon"><img src="img/img-header/icon-benefits/90-Day-Returns.svg" alt="90-Day-Returns">
+                        </div>
+                        <div class="benefits-title">90-Day Returns</div>
+                        <div class="benefits-text">Our goal is your satisfaction</div>
+                    </div>
+                    <div class="benefit-block-three">
+                        <div class="benefits-icon"><img src="img/img-header/icon-benefits/Secure-Payment.svg" alt="Secure-Payment">
+                        </div>
+                        <div class="benefits-title">Secure Payment</div>
+                        <div class="benefits-text">We accept Visa and MasterCard</div>
+                    </div>
+                    <div class="benefit-block-four">
+                        <div class="benefits-icon"><img src="img/img-header/icon-benefits/24-7-Support.svg" alt=""></div>
+                        <div class="benefits-title">24/7 Support</div>
+                        <div class="benefits-text">We'll answer all your questions</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="big-sale">
+                <div class="big-sale-container">
+                    <div class="big-sale-left">
+                        <div class="big-sale-text-one">STARTING FROM $19.00</div>
+                        <div class="big-sale-text-two">Big Sale Has Started</div>
+                        <div class="big-sale-text-three">Get your discount until</div>
+                        <div class="big-sale-text-four">30th May, 2021. HURRY UP!</div>
+                        <div class="big-sale-bottom"><a href="#">Shop Now</a> </div>
+                    </div>
+                    <div class="big-sale-right">
+                        <div class="big-sale-right-text-one">15% OFF FOR THE FIRST ORDER</div>
+                        <div class="big-sale-right-text-two">
+                            Offer for New <br>
+                            Members
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="mc-slider">
+
+            </div>
+        </section>
+        <!--END section header, first-screen, benefits, big-sale, mc-slider dev S.D.-->
+
+
         <!--section New Arrivals, Vita Demian, images must be added-->
         <section class="new-arrivals">
             <p class="yellow-text">RECENTLY ADDED</p>
@@ -639,74 +761,88 @@
 
     <!-- Contacts+footer -->
 
-    <div id="signup">
-        <p>Special rates for new clients. — Sign up to get 15% off on your order!</p>
-        <div id="button_sign">
-            <button onclick="">Sign up</button>
+    <div class="wrapper">
+        <div class="form">
+            <form class="signup">
+                <p>Special rates for new clients. — Sign up to get 15% off on your order!</p>
+                <button id="sign_up">Sign up</button>
+            </form>
         </div>
-    </div>
-    <div id="contacts">
-        <img src="zavhorodnia/logo.jpg" alt="Лого">
-        <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies. Shipping
-            worldwide!</p>
-        <p>Have a question?</p>
-        <p>Call us any time!</p>
-        <p><a href="#">+1 (234) 567 8900</a></p>
-        <p>Write to us!</p>
-        <p>We're here for you 24/7!</p>
-        <p><a href="#">sound@email.com</a></p>
-        <form id="email">
-            <input type="text" placeholder="Email" size="40">
-            <div id="button_email">
-                <button onclick="">Sign up to Our Newsletter</button>
+        <div class="Contacts_footer">
+            <div class="contacts">
+                <div class="contacts1">
+                    <img width=185 src="img/logo.svg" alt="Лого" background-color: #4f4949>
+                    <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies.
+                        <br> Shipping worldwide!
+                    </p>
+                </div>
+                <div class="contacts_tel">
+                    <p>Have a question?</p>
+                    <p>Call us any time!</p>
+                    <p><a href="#">+1 (234) 567 8900</a></p>
+                </div>
+                <div class="contacts_email">
+                    <p>Write to us!</p>
+                    <p>We're here for you 24/7!</p>
+                    <p><a href="#">sound@email.com</a></p>
+                </div>
+                <div class="contacts_form">
+                    <form class="email">
+                        <input type="text" placeholder="Email" size="19">
+                        <div id="button">
+                            <button onclick="">Sign up to Our Newsletter</button>
+                    </form>
+                    </div>
+                </div>
             </div>
-        </form>
+
+            <div class="links">
+                <div id="nav_links">
+                    <h3>Quick Links.</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Affilate</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <div class="nav_links">
+                    <h3>Company.</h3>
+                    <ul>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Product Support</a></li>
+                    </ul>
+                </div>
+                <div class="nav_links">
+                    <h3>Shop.</h3>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Instrument</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="nav_links">
+                    <h3>Customer Care.</h3>
+                    <ul>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Nerm & Condition</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer_text">
+                <p>&copy; Created by team 2</p>
+                <p>All rights Reserved</p>
+            </div>
+        </footer>
     </div>
-
-
-    <div id="links">
-        <div id="quick_links">
-            <h3>Quick Links.</h3>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Affilate</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Career</a></li>
-            </ul>
-        </div>
-        <div id="company">
-            <h3>Company.</h3>
-            <ul>
-                <li><a href="#">Order Tracking</a></li>
-                <li><a href="#">Customer Service</a></li>
-                <li><a href="#">Returns</a></li>
-                <li><a href="#">Product Support</a></li>
-            </ul>
-        </div>
-        <div id="shop">
-            <h3>Shop.</h3>
-            <ul>
-                <li><a href="#">New Arrivals</a></li>
-                <li><a href="#">Instrument</a></li>
-                <li><a href="#">Bestsellers</a></li>
-                <li><a href="#">Sale</a></li>
-            </ul>
-        </div>
-        <div id="customer_care">
-            <h3>Customer Care.</h3>
-            <ul>
-                <li><a href="#">Policy</a></li>
-                <li><a href="#">Nerm & Condition</a></li>
-                <li><a href="#">Shipping</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; Created by</p>
-        <p>All rights Reserved</p>
-    </footer>
 
     <!--end of contacts and footer-->
 </body>
