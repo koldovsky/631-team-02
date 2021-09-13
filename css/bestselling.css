@@ -7,11 +7,13 @@ main div.start-bsi{
 
 }
 main div.start-bsi h2{
+    text-align: center;
     color: orange;
     font-family: 'Work Sans', sans-serif;
     font-size: 12px;
 }
 main div.start-bsi h3{
+    text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: bolder;
@@ -20,6 +22,32 @@ main div.start-bsi h3{
 main div.start-bsi h4{
     color: gray;
     font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+main div.guitar-month-bsi{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../bestselling/fon.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+main div.about h2{
+color: orange;
+font-size: 12px;
+}
+main div.about h3{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+}
+main div .about h4{
+    color: gray;
     font-size: 18px;
     font-weight: normal;
 }
