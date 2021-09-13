@@ -1,29 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
+
 section.on-sale h2 {
     font-size: 2rem;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
-section.on-sale span {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
-.on-sale {
+section.on-sale {
     font-family: 'Work Sans', sans-serif;
 }
+
 
 .topic {
     color: rgb(248, 184, 3);
     text-transform: uppercase;
     font-size: 0.7rem;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 .ui-color {
@@ -36,6 +27,27 @@ section.on-sale span {
 
 .divider {
     height: 2px;
-    width: 2%;
+    width: 20%;
     background-color: rgb(248, 184, 3);
 }  
+
+section.on-sale div.on-sale-countdown div {
+    display: inline;
+    font-size: 0.7rem;
+}
+
+section.on-sale div.on-sale-countdown {
+    margin-left: 3%;
+}
+
+.on-sale-countdown-separator {
+    border-left: 2px solid rgb(162, 168, 162);
+    height: 500px;
+    margin: 0px 5px 0px 0px;
+}
+
+.on-sale-title-block {
+    width: 200px; 
+    height: 180px; 
+    border: 1px solid rgb(226, 224, 224);;
+}
