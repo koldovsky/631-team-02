@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+main div.start-bsi{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+main div.start-bsi h2{
+    color: orange;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+main div.start-bsi h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+}
+main div.start-bsi h4{
+    color: gray;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
