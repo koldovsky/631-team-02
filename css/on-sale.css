@@ -8,15 +8,15 @@
 .on-sale-main-container {
     max-width: 1200px;
     min-width: 320px;
-    max-height: 400px;
+    max-height: 370px;
     margin: auto;
 }
 
-.product-cell1 {
+.marketing-cell {
     border: 1px solid rgb(245, 241, 241);
     padding: 10px;
     float: left;
-    height: 400px;
+    height: 370px;
     width: 28%;
     margin-right: 2%;
     box-sizing: border-box;
@@ -24,7 +24,7 @@
 
 .product-cell {
     float: left;
-    height: 400px;
+    height: 370px;
     width: 22%;
     margin-right: 2%;
     box-sizing: border-box;
@@ -36,6 +36,7 @@
 
 section.on-sale-div-float div.product-cards img {
     width: 240px;
+    margin: 0em auto 1em;
 }
 
 .clearfix {
@@ -49,6 +50,8 @@ section.on-sale-div-float div.product-cards a.product-name {
     font-size: 0.9rem;
     color: black;
     text-decoration: none;
+    display: block;
+    margin: 0em auto 1em;
 }
 
 section.on-sale-div-float div.product-cards a.product-name:hover {
@@ -59,6 +62,8 @@ section.on-sale-div-float div.product-cards p.product-price {
     font-weight: bold;
     font-size: 1rem;
     color: rgb(121, 118, 118);
+    display: block;
+    margin: 0em auto 1em;
 }
 
 .on-sale-add-to-cart {
@@ -77,15 +82,18 @@ section.on-sale-div-float div.product-cards p.product-price {
 }
 
 section.on-sale-div-float h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: capitalize;
 }
 
 .topic {
     color: с;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: left;
+    color: rgb(248, 184, 3);
+    display: block;
+    margin: 2em 0 1em 0;
 }
 
 .ui-color {
@@ -93,32 +101,34 @@ section.on-sale-div-float h2 {
 }
 
 .call-to-action {
-    font-size: 0.7rem;
+    font-size: 1.1rem;
+    display: block;
+    margin: 1em 0 3em 0;
 }
 
 .divider {
     height: 2px;
-    width: 21%;
+    width: 32%;
     background-color: rgb(248, 184, 3);
+    display: block;
+    margin: 1em 0em 1em 0;
 }  
 
 section.on-sale-div-float div.on-sale-countdown div {
-    display: inline;
     font-size: 0.7rem;
+    display: inline-block;
 }
 
 section.on-sale-div-float div.on-sale-countdown {
     text-align: center;
+
 }
 
 .on-sale-countdown-separator {
     border-left: 2px solid rgb(162, 168, 162);
-    height: 500px;
-    margin: 0px 5px 0px 0px;
+    height: 25px;
+    margin: 0px 10px 0px 10px;
 }
 
-.on-sale-title-block {
-    width: 200px; 
-    height: 180px; 
-}
+
 
