@@ -72,17 +72,23 @@
 }
 
 .logo-header{
-    width: 157px;
+    width: 150px;
     height: 37px;
-    padding: 10px 10px;
-    background-size: cover;
-    background-position: center;
+}
+    
+.logo-header-img{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
     /*background-image: url(../img/img-header/logo-header.svg);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;*/
-}
+
+
+
 
 .menu{
     padding: 20px 10px;
@@ -119,25 +125,40 @@ nav ul li a:hover {
 }
 
 .fb{
-    min-height: 25px;
-    width: 25px;
-    border: 1px solid white;
-    margin: 5px;
-    background-size: cover;
+    height: 30px;
+    width: 30px;
+    /*border: 1px solid white;*/
+    margin: 10px;
+    
+}
+
+.fb-img{
+    display: block;
+    width: 100%;
 }
 
 .insta{
-    min-height: 25px;
-    width: 25px;
-    border: 1px solid white;
-    margin: 5px;
+    height: 30px;
+    width: 30px;
+    /*border: 1px solid white;*/
+    margin: 10px;
+}
+
+.insta-img{
+    display: block;
+    width: 100%;
 }
 
 .youtube{
-    min-height: 25px;
-    width: 25px;
-    border: 1px solid white;
-    margin: 5px;
+    height: 30px;
+    width: 30px;
+    /*border: 1px solid white;*/
+    margin: 10px;
+}
+
+.youtube-img{
+    display: block;
+    width: 100%;
 }
 
 .first-screen{
@@ -146,6 +167,7 @@ nav ul li a:hover {
     background-image: url(../img/img-header/fon-sacsafon.png);     
     background-size: cover;
     background-position: center;
+   /* background-attachment: fixed;*/
 }
 
 .first-screen-conteiner{
