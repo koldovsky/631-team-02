@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+section.drum_set {
+  width: 72%;
+  margin: auto;
+  background-color: hsl(0, 0%, 90%);
+  transition: background-color 300ms;
+}
+section.drum_set div.drum_set_box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.4fr 1.4fr;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px;
+}
+section.drum_set div.drum_set_box div img {
+  width: 70%;
+  margin: 30px;
+}
+section.drum_set div.drum_set_box div h2 {
+  color: #f8b803;
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  margin: auto;
+}
+section.drum_set {
+  margin-top: 6em;
+  margin-bottom: 100px;
+}
+section.drum_set div.drum_set_box div h3 {
+  color: #242424;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: 600;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+section.drum_set div.drum_set_box h3 span {
+  color: #f8b803;
+  margin: 0.3em;
+}
+
+section.drum_set div.drum_set_box p {
+  width: 80%;
+  color: #777;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  text-align: justify;
+  margin-right: 20px;
+}
