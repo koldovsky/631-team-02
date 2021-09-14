@@ -33,7 +33,7 @@
         <div class="subheader">
             <div class="subheader-container">
                 <div class="logo-header">
-                    <a href="#"><img src="img/img-header/logo-header.svg" alt="" height="37px"></a>
+                    <a href="#"><img class="logo-header-img" src="img/img-header/logo-header.svg" alt="logo header"></a>
                 </div>
 
                 <div class="menu">
@@ -50,11 +50,10 @@
                 </div>
 
                 <div class="social-logo">
-                    <div class="fb">fb
-                        <!--<img src="img/logo-social/fb-white-logo.png" alt="">-->
-                    </div>
-                    <div class="insta">IN</div>
-                    <div class="youtube">YT</div>
+                    <div class="fb"><a href="#"><img class="fb-img" src="img/img-header/logo-social/icons8-facebook.svg" alt="icons facebook"></a></div>
+                           
+                    <div class="insta"><a href="#"><img class="insta-img" src="img/img-header/logo-social/icons8-instagram-logo.svg" alt="icons instagram"></a></div>
+                    <div class="youtube"><a href="#"><img class="youtube-img" src="img/img-header/logo-social/icons8-youtube-squared.svg" alt="icons youtube"></a></div>
                 </div>
 
             </div>
@@ -175,8 +174,7 @@
                     <p>Dickson Studio ER100 Electric Guitar</p>
                     <p>$180.00</p>
                     <button type="button">Add to card</button>
-                    <img src="img/dickson_studio_er100 _electric_guitar.jpg"
-                        alt="Dickson Studio ER100 Electric Guitar">
+                    <img src="img/dickson_studio_er100 _electric_guitar.jpg" alt="Dickson Studio ER100 Electric Guitar">
 
                 </div>
                 <div class="guitar">
@@ -321,7 +319,7 @@
 
         </section>
         <!--VUNTESMERI-->
-        <section class="shop"> 
+        <section class="shop">
             <!--Shop-->
             <div class="shop_title" id="shop">
                 <h2>shop</h2>
@@ -442,7 +440,8 @@
                         <div>
                             <div>
                                 <a href="page_guitar_S_35">
-                                    <img src="img/acoustic_guitar_S_35.jpg" alt="Kuro Music Studio S-35 Acoustic Guitar">
+                                    <img src="img/acoustic_guitar_S_35.jpg"
+                                        alt="Kuro Music Studio S-35 Acoustic Guitar">
                                 </a>
                             </div>
                             <div>
@@ -694,18 +693,18 @@
         </section>
         <section class="drum_set" id="drum_set">
             <div class=drum_set_box>
-            <!--drum set-->
+                <!--drum set-->
                 <div>
-                
+
                     <h2>drum set</h2>
-                
-                
+
+
                     <h3>Horton Brown Maple 5-Piece Shell Pack<span>.</span></h3>
-                    
-                    
+
+
                     <p>5-piece Maple Electronic Drum Set with 12" Snare, 18" Kick, 10/10/12" Toms, 2x 12" Crash Cymbals,
-                                13" Ride Cymbal, 12" Hi-Hats.</p>
-                    
+                        13" Ride Cymbal, 12" Hi-Hats.</p>
+
                 </div>
                 <div>
                     <div>
@@ -722,13 +721,14 @@
                     <img src="img/Drums_Horton_Brown.jpg" alt="Horton Brown Maple 5-Piece Shell Pack">
                 </div>
             </div>
-        
+
         </section>
         <!--end VUNTESMERI-->
 
-        <div class="parent">
-            <div class="child">
-                <div>
+        <!--section on-sale build with div float-->
+        <section class="on-sale-div-float">
+            <div class="on-sale-main-container">
+                <div class="marketing-cell">
                     <div class="on-sale-title-block">
                         <div>
                             <span class="topic">
@@ -737,7 +737,7 @@
                         </div>
                         <h2>
                             <span>
-                                On Sale<span class="ui-color">.</span>
+                                on sale<span class="ui-color">.</span>
                             </span>
                         </h2>
                         <div class="divider"></div>
@@ -746,35 +746,46 @@
                                 The promotion ends really soon.<br>Hurry Up!
                             </span>
                         </div>
+                        <div class="on-sale-countdown">
+                            <div><span id="days">100 <br> days</span></div>
+                            <div class="on-sale-countdown-separator"></div>
+                            <div><span id="hours">100 <br> hours</span></div>
+                            <div class="on-sale-countdown-separator"></div>
+                            <div><span id="minutes">100 <br> minutes</span></div>
+                            <div class="on-sale-countdown-separator"></div>
+                            <div><span id="seconds">100 <br> seconds</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cell">
+                    <div class="product-cards">
+                        <img src="img/dowson-ddr100-acoustic-guitar.jpg" alt="guitar">
+                        <a class="product-name" href="#">Dowson DDR100 Acoustic Guitar</a>
+                        <p class="product-price">$180</p>
+                        <button class="on-sale-add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="product-cell">
+                    <div class="product-cards">
+                        <img src="img/aer-bass-horn.jpg" alt="bass">
+                        <a class="product-name" href="#">AER B-Flat Professional Bass Horn</a>
+                        <p class="product-price">$300</p>
+                        <button class="on-sale-add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="product-cell">
+                    <div class="product-cards" style="margin: auto;">
+                        <img src="img/student-violin.jpg" alt="violin">
+                        <a class="product-name" href="#">Lewis Lewel ST-1 Student Violin</a>
+                        <p class="product-price">$200</p>
+                        <button class="on-sale-add-to-cart">Add to cart</button>
                     </div>
                 </div>
             </div>
-            <div class="child">
-                <div class="product-cards">
-                    <img src="img/dowson-ddr100-acoustic-guitar.jpg" alt="" width="200">
-                    <p>Dowson DDR100 Acoustic Guitar</p>
-                    <p>$180</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="child">
-                <div class="product-cards">
-                    <img src="img/aer-bass-horn.jpg" alt="" width="200">
-                    <p>AER B-Flat Professional Bass Horn</p>
-                    <p>$300</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="child">
-                <div class="product-cards" style="margin: auto;">
-                    <img src="img/student-violin.jpg" alt="" width="200">
-                    <p>Lewis Lewel ST-1 Student Violin</p>
-                    <p>$200</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
+            <div class="clearfix"></div>
+        </section>
+        <!--end section on-sale build with div float-->
+
         <!--section on sale. shows discounted products. written by Dima Diachkov
         <section class="on-sale">
             <div class="on-sale-title-block">
@@ -826,9 +837,7 @@
             </div
             <br>
         </section>-->
-        <section>
-        </section
-        
+
     </main>
 
 
