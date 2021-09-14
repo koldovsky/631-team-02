@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
+.shop_product {
+  width: 72%;
+  margin: auto;
+}
 section.shop div.shop_title h2 {
   color: #f8b803;
   font-size: 12px;
@@ -9,20 +13,21 @@ section.shop div.shop_title h2 {
   margin: auto;
 }
 section.shop div.shop_title {
-  /* box-sizing: border-box; */
-  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 60px;
 }
 section.shop div.shop_title h3 {
   color: #242424;
-  font-size: 34px;
+  font-size: 2.5em;
   font-family: "Work Sans", sans-serif;
   text-transform: capitalize;
   text-align: center;
   font-weight: bold;
-  margin: 40, 0px;
+  margin: 20px;
 }
 section.shop div.shop_title h3 span {
   color: #f8b803;
+  margin: 0.2em;
 }
 .hr_line {
   margin: auto;
@@ -34,23 +39,257 @@ section.shop div.shop_title p {
   font-family: "Work Sans", sans-serif;
   text-align: center;
 }
-div.shop_button_section div a {
-  min-width: 320 px;
-  max-width: 400 px;
-  margin: 10 px;
+div.shop_product div.shop_button_section div a {
+  margin-right: 20px;
   text-decoration: none;
   color: #777;
-  font-size: 18px;
+  font-size: 12px;
   font-family: "Work Sans", sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
-div.shop_button_section a:hover {
+div.shop_product div.shop_button_section a:hover {
   color: #242424;
 }
-
-div.shop_button_section div {
-  display: inline-flex;
-  flex-wrap: wrap;
+@media (min-width: 840px) {
+  div.shop_product div.shop_button_section div a {
+    font-size: 16px;
+    text-transform: none;
+  }
+}
+div.shop_product div.shop_button_section {
+  display: flex;
+  width: 58%;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-around;
-  /* padding: 60px; */
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 21%;
+  margin-bottom: 20px;
+}
+/* electric guitar in column */
+
+.eg_guitar div img {
+  width: 100%;
+  margin: 0px;
+}
+.eg_guitar div {
+  margin: 5px;
+}
+.eg_guitar div a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font_site);
+  color: var(--font_color_black);
+}
+.eg_guitar div a:hover {
+  color: #f8b803;
+}
+/* price-style */
+.eg_guitar div spin {
+  color: var(--font_color_grey);
+  font-family: var(--font_site);
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0px;
+}
+.eg_guitar div button {
+  width: 9em;
+  height: 3em;
+  background-color: var(--font_color_black);
+  color: #fff;
+  border: var(--font_color_black);
+  border-radius: 5%;
+}
+@media (min-width: 640px) {
+  .eg_guitar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+/* acoustic guitar in column */
+
+.ag_guitar div img {
+  width: 100%;
+  margin: 0px;
+}
+.ag_guitar div {
+  margin: 5px;
+}
+.ag_guitar div a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font_site);
+  color: var(--font_color_black);
+}
+.ag_guitar div a:hover {
+  color: #f8b803;
+}
+/* price-style */
+.ag_guitar div spin {
+  color: var(--font_color_grey);
+  font-family: var(--font_site);
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0px;
+}
+.ag_guitar div button {
+  width: 9em;
+  height: 3em;
+  background-color: var(--font_color_black);
+  color: #fff;
+  border: var(--font_color_black);
+  border-radius: 5%;
+}
+@media (min-width: 640px) {
+  .ag_guitar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+/* drums in column */
+
+.drums_shop div img {
+  width: 100%;
+  margin: 0px;
+}
+.drums_shop div {
+  margin: 5px;
+}
+.drums_shop div a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font_site);
+  color: var(--font_color_black);
+}
+.drums_shop div a:hover {
+  color: #f8b803;
+}
+/* price-style */
+.drums_shop div spin {
+  color: var(--font_color_grey);
+  font-family: var(--font_site);
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0px;
+}
+.drums_shop div button {
+  width: 9em;
+  height: 3em;
+  background-color: var(--font_color_black);
+  color: #fff;
+  border: var(--font_color_black);
+  border-radius: 5%;
+}
+@media (min-width: 640px) {
+  .drums_shop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+/* orchesteric in column */
+
+.orchestric_shop div img {
+  width: 100%;
+  margin: 0px;
+}
+.orchestric_shop div {
+  margin: 5px;
+}
+.orchestric_shop div a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font_site);
+  color: var(--font_color_black);
+}
+.orchestric_shop div a:hover {
+  color: #f8b803;
+}
+/* price-style */
+.orchestric_shop div spin {
+  color: var(--font_color_grey);
+  font-family: var(--font_site);
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0px;
+}
+.orchestric_shop div button {
+  width: 9em;
+  height: 3em;
+  background-color: var(--font_color_black);
+  color: #fff;
+  border: var(--font_color_black);
+  border-radius: 5%;
+}
+@media (min-width: 640px) {
+  .orchestric_shop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+/* orchesteric in column */
+
+.other_shop div img {
+  width: 100%;
+  margin: 0px;
+}
+.other_shop div {
+  margin: 5px;
+}
+.other_shop div a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font_site);
+  color: var(--font_color_black);
+}
+.other_shop div a:hover {
+  color: #f8b803;
+}
+/* price-style */
+.other_shop div spin {
+  color: var(--font_color_grey);
+  font-family: var(--font_site);
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0px;
+}
+.other_shop div button {
+  width: 9em;
+  height: 3em;
+  background-color: var(--font_color_black);
+  color: #fff;
+  border: var(--font_color_black);
+  border-radius: 5%;
+}
+@media (min-width: 640px) {
+  .other_shop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
 }
