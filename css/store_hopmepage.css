@@ -49,7 +49,7 @@ header div.contacts_header a:hover {
 }
 .header .navigation {
   display: flex;
-  /* flex-direction: line-row; */
+  /* flex-direction:  line-row; */
   margin: auto;
   flex: 3;
 }

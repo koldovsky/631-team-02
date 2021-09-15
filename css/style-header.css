@@ -268,6 +268,25 @@ nav ul li a:hover {
   text-decoration: none;
   color: white;
 }
+.first-screen-bottom {
+  font-size: 16px;
+  line-height: 3.5;
+  font-family: Work Sans, sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  width: 140px;
+  height: 55px;
+  background-color: #f8b803;
+  border-radius: 5px;
+  border: none;
+}
+
+.first-screen-bottom > a {
+  text-decoration: none;
+  color: white;
+}
 
 /*benefits section*/
 
