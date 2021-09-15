@@ -35,8 +35,8 @@
 }
 
 section.on-sale-div-float div.product-cards img {
-    width: 240px;
-    margin: 0em auto 1em;
+    width: 265px;
+    margin: 0em auto 0.6em;
 }
 
 .clearfix {
@@ -51,7 +51,7 @@ section.on-sale-div-float div.product-cards a.product-name {
     color: black;
     text-decoration: none;
     display: block;
-    margin: 0em auto 1em;
+    margin: 0em auto 0.5em;
 }
 
 section.on-sale-div-float div.product-cards a.product-name:hover {
@@ -63,7 +63,7 @@ section.on-sale-div-float div.product-cards p.product-price {
     font-size: 1rem;
     color: rgb(121, 118, 118);
     display: block;
-    margin: 0em auto 1em;
+    margin: 0em auto 0.5em;
 }
 
 .on-sale-add-to-cart {
@@ -144,26 +144,48 @@ section.on-sale-div-float div.on-sale-countdown {
     width: 1200px;
     height: 160px;
     margin: auto;
-    background: left url("/img/on-sale-banner.jpg") ;
+    background: left url("/img/on-sale-banner.jpg");
 }
 
 
 .on-sale-banner-heading {
-    color: white;
+    color: rgb(162, 168, 162);
     text-transform: uppercase;
     font-weight: bold;
     display: block;
-    padding: 3% 0 0 1%;
+    padding: 3% 0 0 2%;
 }
 
 .on-sale-banner-call-to-action {
     color: white;
     font-weight: bold;
     display: block;
-    padding: 2% 0 0 1%;
+    padding: 2% 0 0 2%;
     font-size: 2rem;
 }
 
+.on-sale-bottom-container {
+    max-width: 1200px;
+    min-width: 320px;
+    max-height: 370px;
+    margin: -5em auto 0em;
+}
 
+.on-sale-bottom-container-cell {
+    border: 1px solid rgb(245, 241, 241);
+    float: left;
+    height: 370px;
+    width: 48%;
+    margin-right: 4%;
+    box-sizing: border-box;
+}
 
+.on-sale-bottom-container-cell:last-child {
+    margin-right: 0%;
+}
+
+.on-sale-bottom-container-cell img {
+    width: 575px;
+    height: 370px;
+}
 
