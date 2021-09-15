@@ -6,13 +6,15 @@ section.drum_set {
   background-color: hsl(0, 0%, 96%);
   transition: background-color 300ms;
 }
-section.drum_set div.drum_set_box {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1.1fr 0.5fr 1.4fr;
-  align-items: center;
-  justify-content: space-between;
-  margin: 40px;
+@media (min-width: 640px) {
+  section.drum_set div.drum_set_box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.1fr 0.5fr 1.4fr;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+  }
 }
 section.drum_set div.drum_set_box div img {
   width: 70%;
@@ -53,4 +55,33 @@ section.drum_set div.drum_set_box p {
   font-family: "Work Sans", sans-serif;
   text-align: justify;
   margin-right: 20px;
+}
+section.drum_set div.drum_set_box h5 {
+  font-family: var(--font_site);
+  color: var(--font_color_grey);
+  font-size: 1.2em;
+  text-decoration: line-through;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+section.drum_set div.drum_set_box h6 {
+  font-family: var(--font_site);
+  color: rgb(102, 153, 4);
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+section.drum_set div.drum_set_box a {
+  background-color: var(--font_color_black);
+  box-sizing: border-box;
+  padding: 0.8em 1.4em;
+  font-family: var(--font_site);
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 5%;
+}
+section.drum_set div.drum_set_box a:hover {
+  background-color: var(--font_color_yellow);
 }
