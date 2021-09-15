@@ -104,6 +104,12 @@ section.on-sale-div-float h2 {
     font-size: 1.1rem;
     display: block;
     margin: 1em 0 3em 0;
+    color: rgb(121, 118, 118);
+}
+
+.digits {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .divider {
@@ -121,7 +127,11 @@ section.on-sale-div-float div.on-sale-countdown div {
 
 section.on-sale-div-float div.on-sale-countdown {
     text-align: center;
+}
 
+.on-sale-countdown span.units-of-time {
+    font-size: 0.6rem;
+    color: rgb(121, 118, 118);
 }
 
 .on-sale-countdown-separator {
