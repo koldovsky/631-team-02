@@ -35,13 +35,13 @@
 }
 
 section.on-sale-div-float div.product-cards img {
-    width: 240px;
-    margin: 0em auto 1em;
+    width: 265px;
+    margin: 0em auto 0.6em;
 }
 
 .clearfix {
     clear: left;
-    margin: 10em auto 20em;
+    margin: 5em auto 10em;
 }
 
 section.on-sale-div-float div.product-cards a.product-name {
@@ -51,7 +51,7 @@ section.on-sale-div-float div.product-cards a.product-name {
     color: black;
     text-decoration: none;
     display: block;
-    margin: 0em auto 1em;
+    margin: 0em auto 0.5em;
 }
 
 section.on-sale-div-float div.product-cards a.product-name:hover {
@@ -63,7 +63,7 @@ section.on-sale-div-float div.product-cards p.product-price {
     font-size: 1rem;
     color: rgb(121, 118, 118);
     display: block;
-    margin: 0em auto 1em;
+    margin: 0em auto 0.5em;
 }
 
 .on-sale-add-to-cart {
@@ -87,7 +87,6 @@ section.on-sale-div-float h2 {
 }
 
 .topic {
-    color: с;
     text-transform: uppercase;
     font-size: 0.8rem;
     text-align: left;
@@ -100,10 +99,20 @@ section.on-sale-div-float h2 {
     color: rgb(248, 184, 3);
 }
 
+.ui-color-black {
+    color: black;
+}
+
 .call-to-action {
     font-size: 1.1rem;
     display: block;
     margin: 1em 0 3em 0;
+    color: rgb(121, 118, 118);
+}
+
+.digits {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .divider {
@@ -121,7 +130,11 @@ section.on-sale-div-float div.on-sale-countdown div {
 
 section.on-sale-div-float div.on-sale-countdown {
     text-align: center;
+}
 
+.on-sale-countdown span.units-of-time {
+    font-size: 0.6rem;
+    color: rgb(121, 118, 118);
 }
 
 .on-sale-countdown-separator {
@@ -130,5 +143,93 @@ section.on-sale-div-float div.on-sale-countdown {
     margin: 0px 10px 0px 10px;
 }
 
+.on-sale-banner {
+    width: 1200px;
+    height: 160px;
+    margin: auto;
+    background: left url(../img/on-sale-banner.jpg);
+}
 
 
+.on-sale-banner-heading {
+    color: rgb(219, 223, 219);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3% 0 0 2%;
+}
+
+.on-sale-banner-call-to-action {
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 2% 0 0 2%;
+    font-size: 2.5rem;
+}
+
+.on-sale-bottom-container {
+    max-width: 1200px;
+    min-width: 320px;
+    max-height: 370px;
+    margin: -5em auto 0em;
+}
+
+.on-sale-bottom-container-cell-left {
+    border: 1px solid rgb(245, 241, 241);
+    float: left;
+    height: 370px;
+    width: 48%;
+    margin-right: 4%;
+    box-sizing: border-box;
+    background: url(../img/on-sale-bottom-banner-drum.png);
+}
+
+.on-sale-bottom-container-cell-right {
+    border: 1px solid rgb(245, 241, 241);
+    float: left;
+    height: 370px;
+    width: 48%;
+    margin-right: 4%;
+    box-sizing: border-box;
+    background: url(../img/on-sale-bottom-banner-guitar.jpg);
+}
+
+.on-sale-bottom-container-cell-right:last-child {
+    margin-right: 0%;
+}
+
+.on-sale-bottom-container-cell img {
+    width: 575px;
+    height: 370px;
+}
+
+.on-sale-buy-now-right {
+    width: 140px;
+    height: 50px;
+    font-size: 1rem;
+    background: white;
+    color: black;
+    border-style: hidden;
+    border-radius: 5%;
+    font-weight: bold;
+    margin: 20% 0 0 3%;
+}
+
+.on-sale-buy-now-left {
+    width: 140px;
+    height: 50px;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border-style: hidden;
+    border-radius: 5%;
+    font-weight: bold;
+    margin: 20% 0 0 3%;
+}
+
+.on-sale-buy-now-right:hover {
+    background: rgb(248, 184, 3);
+}
+
+.on-sale-buy-now-left:hover {
+    background: rgb(248, 184, 3);
+}
