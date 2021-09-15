@@ -255,7 +255,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }*/
 
-.first-screen-bottom > button {
+.first-screen-bottom{
     font-size: 16px;
     line-height: 3.5;
     font-family: Work Sans,sans-serif;
@@ -270,7 +270,7 @@ nav ul li a:hover {
     border: none;
 }
 
-.first-screen-bottom > button > a{
+.first-screen-bottom > a{
     text-decoration: none;
     color: white;
 }
