@@ -161,7 +161,10 @@ body div a {
   margin: auto;
   margin-top: 1.5em;
 }
-.box .description .button_container .couinter {
+.box .description .button_container .counter {
+  font-family: var(--font_site);
+  font-size: 1em;
+  text-align: center;
   flex: 1;
 }
 .box .description .button_container .empty {
