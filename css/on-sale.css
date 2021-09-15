@@ -41,7 +41,7 @@ section.on-sale-div-float div.product-cards img {
 
 .clearfix {
     clear: left;
-    margin: 10em auto 20em;
+    margin: 5em auto 10em;
 }
 
 section.on-sale-div-float div.product-cards a.product-name {
@@ -141,17 +141,29 @@ section.on-sale-div-float div.on-sale-countdown {
 }
 
 .on-sale-banner {
-    max-width: 1200px;
-    min-width: 320px;
-    max-height: 200px;
+    width: 1200px;
+    height: 160px;
     margin: auto;
+    background: left url("/img/on-sale-banner.jpg") ;
 }
 
-.on-sale-banner img {
-    max-width: 1200px;
-    min-width: 320px;
-    max-height: 200px;
+
+.on-sale-banner-heading {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 3% 0 0 1%;
 }
+
+.on-sale-banner-call-to-action {
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 2% 0 0 1%;
+    font-size: 2rem;
+}
+
 
 
 
