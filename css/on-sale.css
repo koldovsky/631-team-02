@@ -140,5 +140,18 @@ section.on-sale-div-float div.on-sale-countdown {
     margin: 0px 10px 0px 10px;
 }
 
+.on-sale-banner {
+    max-width: 1200px;
+    min-width: 320px;
+    max-height: 200px;
+    margin: auto;
+}
+
+.on-sale-banner img {
+    max-width: 1200px;
+    min-width: 320px;
+    max-height: 200px;
+}
+
 
 
