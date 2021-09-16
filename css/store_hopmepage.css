@@ -165,10 +165,11 @@ body div a {
   font-family: var(--font_site);
   font-size: 1em;
   text-align: center;
-  flex: 1;
+  border: 1px solid var(--font_color_grey);
+  flex: 0.6;
 }
 .box .description .button_container .empty {
-  flex: 1;
+  flex: 0.2;
 }
 .box .description .button_container button {
   flex: 5;
@@ -199,4 +200,5 @@ body div a {
   font-size: 1em;
   font-weight: 100;
   margin-top: 1em;
+  list-style-type: none;
 }
