@@ -183,9 +183,23 @@ nav ul li a:hover {
 .fb{
     height: 30px;
     width: 30px;
+    background-image: url(../img/img-header/logo-social/icons8-facebook.svg);
+    background-size: cover;
+    background-position: center;
     /*border: 1px solid white;*/
     margin: 10px;
-    
+}
+
+.fb:hover{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/img-header/logo-social/icons8-facebook2.svg);
+    background-size: cover;
+    background-position: center;
+    /*border: 1px solid white;*/
+    margin: 10px;
+    transition: 0.5s;
+    opacity: 0.5; 
 }
 
 .fb-img {
@@ -196,8 +210,25 @@ nav ul li a:hover {
 .insta {
   height: 30px;
   width: 30px;
+  background-image: url(../img/img-header/logo-social/icons8-instagram-logo.svg);
+  background-size: cover;
+  background-position: center;
   /*border: 1px solid white;*/
   margin: 10px;
+  /*border: 1px solid white;*/
+  margin: 10px;
+}
+
+.insta:hover{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/img-header/logo-social/icons8-instagram2.svg);
+    background-size: cover;
+    background-position: center;
+    /*border: 1px solid white;*/
+    margin: 10px;
+    transition: 0.5s;
+    opacity: 0.5; 
 }
 
 .insta-img {
@@ -208,8 +239,23 @@ nav ul li a:hover {
 .youtube {
   height: 30px;
   width: 30px;
+  background-image: url(../img/img-header/logo-social/icons8-youtube-squared.svg);
+  background-size: cover;
+  background-position: center;
   /*border: 1px solid white;*/
   margin: 10px;
+}
+
+.youtube:hover{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/img-header/logo-social/icons8-youtube-squared2.svg);
+    background-size: cover;
+    background-position: center;
+    /*border: 1px solid white;*/
+    margin: 10px;
+    transition: 0.5s;
+    opacity: 0.5; 
 }
 
 .youtube-img {
