@@ -3,7 +3,9 @@
 .point {
     color: orange;
 }
-
+.line-bsi{
+    margin: auto;
+}
 main div.start-bsi{
     text-align: center;
   
