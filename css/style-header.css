@@ -3,16 +3,25 @@
     padding: 0;
 }
 
+
 .welcome-line{
     width: auto;
     height: 42px;
     background-color: #fafafa;
 }
 
+@media(max-width:700px){
+    .welcome-line{
+        display: none;
+    }
+}
+
 .welcome-line-container{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
     height: 32px;
     /*background-color: #000;*/
     margin: auto;
@@ -53,8 +62,28 @@
 
 }
 
+.navbar{
+    width: auto;
+    height: 67px;
+    background-color: #F8B803;
 
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    height: 67px;
+    background-color: #F8B803;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
 
+.navbar-nav{
+    color: 
+}
 .subheader{
     width: auto;
     height: 67px;
@@ -74,12 +103,14 @@
 .logo-header{
     width: 150px;
     height: 37px;
+    
+
 }
     
 .logo-header-img{
     display: block;
     width: 100%;
-    padding: 10px 0;
+    
 }
     /*background-image: url(../img/img-header/logo-header.svg);
     background-size: contain;
@@ -90,10 +121,10 @@
 
 
 
-.menu{
+/*.menu{
     padding: 20px 10px;
     
-}
+}*/
 
 #navbar {
     margin: 0;
@@ -112,16 +143,43 @@ nav ul li a {
     text-decoration: none;
 }
 
+#navbarNav ul li a{
+    font-size: 14px;
+    font-family: Work Sans, sans-serif;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#navbarNav ul li a:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 nav ul li a:hover {
     color: black;
     text-decoration: underline;
     font-weight: 700;
+    transition: 0.5s;
+}
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .social-logo{
     display: flex;
     align-items: center;
     padding: 30px 10px;
+}
+
+@media(max-width: 1000px){
+    .social-logo{
+        display: none;
+    }
 }
 
 .fb{
@@ -162,17 +220,26 @@ nav ul li a:hover {
 }
 
 .first-screen{
-    width: 1349px;
-    height: 703px;
+    width: 100%;
+    max-width: 1349px;
+    
+    
+}
+
+.first-screen-fon{
     background-image: url(../img/img-header/fon-sacsafon.png);     
     background-size: cover;
     background-position: center;
+    /*overflow: hidden;*/
    /* background-attachment: fixed;*/
+   margin: 0 auto;
 }
 
 .first-screen-conteiner{
-    width: 1200px;
-    margin: auto;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 190px 0;
 }
 
@@ -185,6 +252,7 @@ nav ul li a:hover {
     font-style: normal;
     color: #f8b803;
     margin-bottom: 50px;
+    
 }
 
 .first-screen-text-two{
@@ -284,12 +352,22 @@ nav ul li a:hover {
 .benefits-container{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 196px;
+    width: 100%;
+    max-width: 1200px;
+    
    /* background-color: #000;*/
     margin:  auto;
     padding: 60px 0 20px;
     margin-bottom: 30px;
+}
+
+@media(max-width:700px){
+    .benefits-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .benefit-block-one{
@@ -351,9 +429,18 @@ nav ul li a:hover {
 .big-sale-container{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 399px;
-    margin: auto;
+    width: 100%;
+    max-width:1200px;
+    
+    margin: 0 auto;
+}
+
+@media(max-width:700px){
+    .big-sale-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .big-sale-left{

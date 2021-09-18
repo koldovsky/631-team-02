@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bestselling.css">
     <link rel="stylesheet" href="css/on-sale.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -30,53 +32,77 @@
             </div>
 
         </div>
-        <div class="subheader">
-            <div class="subheader-container">
+
+
+        <!--Bootstrap menu-->
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
                 <div class="logo-header">
                     <a href="#"><img class="logo-header-img" src="img/img-header/logo-header.svg" alt="logo header"></a>
                 </div>
-
-                <div class="menu">
-                    <nav>
-                        <ul id="navbar">
-                            <li><a href="#">New Arrivals</a></li>
-                            <li><a href="#">Best-Selling</a></li>
-                            <li><a href="#">Guitars</a></li>
-                            <li><a href="#">Drums</a></li>
-                            <li><a href="#">Orchestric</a></li>
-                            <li><a href="#">Contacts</a></li>
-                        </ul>
-                    </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Best-Selling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Guitars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Drums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orchestric</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="social-logo">
-                    <div class="fb"><a href="#"><img class="fb-img" src="img/img-header/logo-social/icons8-facebook.svg" alt="icons facebook"></a></div>
-                           
-                    <div class="insta"><a href="#"><img class="insta-img" src="img/img-header/logo-social/icons8-instagram-logo.svg" alt="icons instagram"></a></div>
-                    <div class="youtube"><a href="#"><img class="youtube-img" src="img/img-header/logo-social/icons8-youtube-squared.svg" alt="icons youtube"></a></div>
+                    <div class="fb"><a href="#"><img class="fb-img" src="img/img-header/logo-social/icons8-facebook.svg"
+                                alt="icons facebook"></a></div>
+
+                    <div class="insta"><a href="#"><img class="insta-img"
+                                src="img/img-header/logo-social/icons8-instagram-logo.svg" alt="icons instagram"></a>
+                    </div>
+                    <div class="youtube"><a href="#"><img class="youtube-img"
+                                src="img/img-header/logo-social/icons8-youtube-squared.svg" alt="icons youtube"></a>
+                    </div>
                 </div>
-
             </div>
-
-        </div>
+        </nav>
     </header>
     <main>
         <!--BEGIN section header, first-screen, benefits, big-sale, mc-slider dev S.D.-->
         <section>
             <div class="first-screen">
-                <div class="first-screen-conteiner">
-                    <div class="first-screen-text-one">MUSICAL INSTRUMENTS STORE</div>
-                    <div class="first-screen-text-two">
-                        We Have <span class="everything">Everything</span> <br>
-                        Any Musician May<br>
-                        Need<span class="point">.</span>
-                    </div>
-                    <div class="line-yellow"></div>
-                    <div class="first-screen-text-three">Instruments, equipment & supplies from <span
-                            class="from-50">$50.00</span> </div>
-                    <div class="first-screen-bottom"><a href="#">Shop Now</a>                            
+                <div class="first-screen-fon">
+                    <div class="first-screen-conteiner">
+
+                        <div class="first-screen-text-one">MUSICAL INSTRUMENTS STORE</div>
+                        <div class="first-screen-text-two">
+                            We Have <span class="everything">Everything</span> <br>
+                            Any Musician May<br>
+                            Need<span class="point">.</span>
+                        </div>
+                        <div class="line-yellow"></div>
+                        <div class="first-screen-text-three">Instruments, equipment & supplies from <span
+                                class="from-50">$50.00</span> </div>
+                        <div class="first-screen-bottom"><a href="#">Shop Now</a></div>
+
                     </div>
                 </div>
+            </div>
 
 
             </div>
@@ -785,7 +811,7 @@
         </section>
         <!--end section on-sale build with div float-->
 
-        <!--section on sale. shows discounted products. written by Dima Diachkov
+        <!--section on sale. shows discounted products. written by Dima Diachkov-->
         <section class="on-sale">
             <div class="on-sale-title-block">
                 <div>
@@ -833,8 +859,7 @@
                     <p>$200</p>
                     <button>Add to cart</button>
                 </div>
-            </div
-            <br>
+            </div <br>
         </section>-->
 
     </main>
@@ -925,6 +950,12 @@
     </footer>
     </div>
     <!--end of contacts and footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
