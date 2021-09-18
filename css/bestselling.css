@@ -120,6 +120,11 @@ main #courusel-bsi h6{
         flex-direction: row;
         justify-content: space-between;
         margin-bottom:40px;
+
+    }
+    #courusel-bsi>img{
+        display: block;
+        width: 100%;
     }
     main div .button-card {
         color: white;
@@ -131,5 +136,6 @@ main #courusel-bsi h6{
       }
       main div .button-card:hover{
           background-color: orange;
+          border-color: orange;
       }
       
