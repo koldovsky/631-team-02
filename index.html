@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/acoustic_guitar_RA_090.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bestselling.css">
+    <link rel="shortcut icon" href="img/acoustic_guitar_RA_090.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/on-sale.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/shop.css">
     <link rel="stylesheet" href="css/style-header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/drum_set.css">
+    <link rel="stylesheet" href="css/bestselling.css">
     <title>Instrumental store</title>
 
 </head>
@@ -29,58 +34,85 @@
             </div>
 
         </div>
-        <div class="subheader">
-            <div class="subheader-container">
+
+
+        <!--Bootstrap menu-->
+
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container-fluid">
                 <div class="logo-header">
                     <a href="#"><img class="logo-header-img" src="img/img-header/logo-header.svg" alt="logo header"></a>
                 </div>
-
-                <div class="menu">
-                    <nav>
-                        <ul id="navbar">
-                            <li><a href="#">New Arrivals</a></li>
-                            <li><a href="#">Best-Selling</a></li>
-                            <li><a href="#">Guitars</a></li>
-                            <li><a href="#">Drums</a></li>
-                            <li><a href="#">Orchestric</a></li>
-                            <li><a href="#">Contacts</a></li>
-                        </ul>
-                    </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Best-Selling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Guitars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Drums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orchestric</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="social-logo">
-                    <div class="fb"><a href="#"><img class="fb-img" src="img/img-header/logo-social/icons8-facebook.svg"
-                                alt="icons facebook"></a></div>
+                    <a href="#">
+                        <div class="fb">
+                            <!--<img class="fb-img" src="img/img-header/logo-social/icons8-facebook.svg"
+                                alt="icons facebook">-->
+                        </div>
+                    </a>
 
-                    <div class="insta"><a href="#"><img class="insta-img"
-                                src="img/img-header/logo-social/icons8-instagram-logo.svg" alt="icons instagram"></a>
-                    </div>
-                    <div class="youtube"><a href="#"><img class="youtube-img"
-                                src="img/img-header/logo-social/icons8-youtube-squared.svg" alt="icons youtube"></a>
-                    </div>
+                    <a href="#">
+                        <div class="insta">
+                            <!--<img class="insta-img"
+                                src="img/img-header/logo-social/icons8-instagram-logo.svg" alt="icons instagram">-->
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="youtube"><!--<img class="youtube-img"
+                                src="img/img-header/logo-social/icons8-youtube-squared.svg" alt="icons youtube">-->
+                    </div></a>
                 </div>
-
             </div>
-
-        </div>
+        </nav>
     </header>
     <main>
         <!--BEGIN section header, first-screen, benefits, big-sale, mc-slider dev S.D.-->
         <section>
             <div class="first-screen">
-                <div class="first-screen-conteiner">
-                    <div class="first-screen-text-one">MUSICAL INSTRUMENTS STORE</div>
-                    <div class="first-screen-text-two">
-                        We Have <span class="everything">Everything</span> <br>
-                        Any Musician May<br>
-                        Need<span class="point">.</span>
-                    </div>
-                    <div class="line-yellow"></div>
-                    <div class="first-screen-text-three">Instruments, equipment & supplies from <span
-                            class="from-50">$50.00</span> </div>
-                    <div class="first-screen-bottom"><a href="#">Shop Now</a>
+                <div class="first-screen-fon">
+                    <div class="first-screen-conteiner">
+
+                        <div class="first-screen-text-one">MUSICAL INSTRUMENTS STORE</div>
+                        <div class="first-screen-text-two">
+                            We Have <span class="everything">Everything</span> <br>
+                            Any Musician May<br>
+                            Need<span class="point">.</span>
+                        </div>
+                        <div class="line-yellow"></div>
+                        <div class="first-screen-text-three">Instruments, equipment & supplies from <span
+                                class="from-50">$50.00</span> </div>
+                        <div class="first-screen-bottom"><a href="#">Shop Now</a></div>
+
                     </div>
                 </div>
+            </div>
 
 
             </div>
@@ -253,48 +285,48 @@
         <section class="best-selling-instruments">
             <div class="start-bsi">
                 <h2>OUR CHOICE</h2>
-                <h3>Best-Selling Instruments.</h3>
-                <hr align="centre" color="orange" size="2" width="50">
+                <h3>Best-Selling Instruments<span class="point">.</span></h3>
+                <hr class="line-bsi" color="orange" size="2" width="50">
                 <h4>Click on the image to open the product card with full description.
                 </h4>
             </div>
-            <div class="courusel-bsi">
+            <div id="courusel-bsi">
                 <div class="drum-corusel-bsi">
-                    <img src="bestselling/drum.jpg" alt="drum" width="100">
-                    <p>Ericson Black&White Snare Drum</p>
-                    <p>$115.00</p>
-                    <button type="button">Add to Cart</button>
+                    <img src="bestselling/drum.jpg" alt="drum" width="150">
+                    <h5>Ericson Black&White Snare Drum</h5>
+                    <h6>$115.00</h6>
+                    <button type="button" class="button-card">Add to Cart</button>
                 </div>
                 <div class="guitar-corusel-bsi">
-                    <img src="bestselling/guitar.jpg" alt="gitara" width="100">
-                    <p>Jackson RI405 Electric Guitar</p>
-                    <p>$300.00</p>
-                    <button type="button">Add to Cart</button>
+                    <img src="bestselling/guitar.jpg" alt="guitra" width="150">
+                    <h5>Jackson RI405 Electric Guitar</h5>
+                    <h6>$300.00</h6>
+                    <button type="button" class="button-card">Add to Cart</button>
                 </div>
                 <div class="saxophon-corusel-bsi">
-                    <img src="bestselling/saxophon.jpg" alt="saxophon" width="100">
-                    <p>Donny Stavanger SRT12 Alto Saxophone</p>
-                    <p>$450.00</p>
-                    <button type="button">Add to Cart</button>
+                    <img src="bestselling/saxophon.jpg" alt="saxofon" width="150">
+                    <h5>Donny Stavanger SRT12 Alto Saxophone</h5>
+                    <h6>$450.00</h6>
+                    <button type="button" class="button-card">Add to Cart</button>
                 </div>
                 <div class="tambourine-corusel-bsi">
-                    <img src="bestselling/tambourine.jpg" alt="tambourine" width="100">
-                    <p>Jiwa Studio JWL100 Single Row Tambourine</p>
-                    <p>$50.00</p>
-                    <button type="button">Add to Cart</button>
+                    <img src="bestselling/tambourine.jpg" alt="tambourine" width="150">
+                    <h5>Jiwa Studio JWL100 Single Row Tambourine</h5>
+                    <h6>$50.00</h6>
+                    <button type="button" class="button-card">Add to Cart</button>
                 </div>
                 <div class="redguitar-corusel-bsi">
-                    <img src="bestselling/redguitar.jpg" alt="redguitar" width="100">
-                    <p>Winston WR-100 Electric Guitar</p>
-                    <p>$320.00</p>
-                    <button type="button">Add to Cart</button>
+                    <img src="bestselling/redguitar.jpg" alt="redguitar" width="150">
+                    <h5>Winston WR-100 Electric Guitar</h5>
+                    <h6>$320.00</h6>
+                    <button type="button" class="button-card">Add to Cart</button>
                 </div>
             </div>
             <div class="guitar-month-bsi">
                 <div class="about">
                     <h2>GUITAR OF THE MONTH</h2>
-                    <h3>Guitar Peacock RD200.</h3>
-                    <hr align="centre" color="orange" size="2" width="50">
+                    <h3>Guitar Peacock RD200<span class="point">.</span></h3>
+                    <hr align="left" color="orange" size="2" width="50">
                     <h4>Peacock RD200 is a simple yet stylish and practical guitar specially designed for beginners and
                         students. This model can be your first guitar no matter who you are, how old you are, or what
                         style
@@ -315,8 +347,9 @@
 
                     </div>
                 </div>
-
-                <img src="bestselling/yellowguitar.webp" alt="yellowguitar" width="100">
+                <div class="yellowguitar">
+                    <img src="bestselling/yellowguitar.webp" alt="yellowguitar" width="200">
+                </div>
 
             </div>
 
@@ -695,9 +728,9 @@
             </div>
         </section>
         <section class="drum_set" id="drum_set">
-            <div class=drum_set_box>
+            <div class="drum_set_box row">
                 <!--drum set-->
-                <div>
+                <div class="col-md-5 drum_set_shell_pack">
 
                     <h2>drum set</h2>
 
@@ -709,7 +742,7 @@
                         13" Ride Cymbal, 12" Hi-Hats.</p>
 
                 </div>
-                <div>
+                <div class="col-md-3 drum_set_price_offer">
                     <div>
                         <h5>$3,100.99</h5>
                     </div>
@@ -720,12 +753,12 @@
                         <a href="#up-to40%-of">Shop Now</a>
                     </div>
                 </div>
-                <div>
-                    <img src="img/Drums_Horton_Brown.jpg" alt="Horton Brown Maple 5-Piece Shell Pack">
+                <div class="col-md-4 drums_set_image">
+                    <img class="img-right" src="img/Drums_Horton_Brown.jpg" alt="Horton Brown Maple 5-Piece Shell Pack">
                 </div>
             </div>
 
-        </section>
+        </section>g
         <!--end VUNTESMERI-->
 
         <!--section on-sale build with div float, shows discounted products. written by Dima Diachkov-->
@@ -794,7 +827,8 @@
             <div class="on-sale-bottom-container">
                 <div class="on-sale-bottom-container-cell-left">
                     <p class="on-sale-banner-heading"><span class="ui-color">special offer</span></p>
-                    <p class="on-sale-banner-call-to-action"> <span class="ui-color-black">Red Wings<br>Drum Set</span><span class="ui-color">.</span></p>
+                    <p class="on-sale-banner-call-to-action"> <span class="ui-color-black">Red Wings<br>Drum
+                            Set</span><span class="ui-color">.</span></p>
                     <button class="on-sale-buy-now-left">Buy now</button>
                 </div>
                 <div class="on-sale-bottom-container-cell-right">
@@ -807,6 +841,56 @@
         </section>
         <!--end section on-sale build with div float-->
 
+        <!--section on sale. shows discounted products. written by Dima Diachkov-->
+        <section class="on-sale">
+            <div class="on-sale-title-block">
+                <div>
+                    <span class="topic">
+                        up to 40% off
+                    </span>
+                </div>
+                <h2>
+                    <span>
+                        On Sale<span class="ui-color">.</span>
+                    </span>
+                </h2>
+                <div class="divider"></div>
+                <div>
+                    <span class="call-to-action">
+                        The promotion ends really soon.<br>Hurry Up!
+                    </span>
+                </div>
+                <div class="on-sale-countdown">
+                    <div><span id="days"></span>days</div>
+                    <div class="on-sale-countdown-separator"></div>
+                    <div><span id="hours"></span>hours</div>
+                    <div class="on-sale-countdown-separator"></div>
+                    <div><span id="minutes"></span>minutes</div>
+                    <div class="on-sale-countdown-separator"></div>
+                    <div><span id="seconds"></span>seconds</div>
+                </div>
+            </div>
+            <div class="block-preview-product-cards">
+                <div class="product-cards">
+                    <img src="img/dowson-ddr100-acoustic-guitar.jpg" alt="" width="200">
+                    <p>Dowson DDR100 Acoustic Guitar</p>
+                    <p>$180</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product-cards">
+                    <img src="img/aer-bass-horn.jpg" alt="" width="200">
+                    <p>AER B-Flat Professional Bass Horn</p>
+                    <p>$300</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product-cards" style="margin: auto;">
+                    <img src="img/student-violin.jpg" alt="" width="200">
+                    <p>Lewis Lewel ST-1 Student Violin</p>
+                    <p>$200</p>
+                    <button>Add to cart</button>
+                </div>
+            </div <br>
+        </section>
 
     </main>
 
@@ -896,6 +980,12 @@
     </footer>
     </div>
     <!--end of contacts and footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
