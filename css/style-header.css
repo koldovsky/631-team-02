@@ -249,7 +249,7 @@ nav ul li a:hover {
 .youtube:hover{
     height: 30px;
     width: 30px;
-    background-image: url(../img/img-header/logo-social/icons8-youtube-squared2.svg);
+    background-image: url(../img/img-header/logo-social/icons8-youtube-squared2.svgbig-sale);
     background-size: cover;
     background-position: center;
     /*border: 1px solid white;*/
@@ -498,6 +498,7 @@ nav ul li a:hover {
     max-width:1200px;
     
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 @media(max-width:700px){
