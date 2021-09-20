@@ -63,7 +63,7 @@ section.header_background {
   margin-left: 40px;
 }
 
-.headers .social_media {
+.headers .navigation .social_media {
   display: flex;
   flex-direction: row-reverse;
   margin: auto;
