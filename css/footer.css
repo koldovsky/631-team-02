@@ -1,6 +1,6 @@
 :root {
     --greydecoration-color: #777;
-    --logo-color: #f8b803;
+    --orange-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -16,6 +16,10 @@ footer {
     color: #fff;
     width: 100%;
     height: 50px;
+}
+
+.footer_text {
+    display: flex;
 }
 
 .form {
@@ -39,9 +43,9 @@ footer {
 
 .links {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
+    grid-template-columns: repeat(auto-fit, 50rem);
     margin: 150px;
-    row-gap: 1em;
+    row-gap: 2em;
 }
 
 .signup {
@@ -94,16 +98,35 @@ body {
 }
 
 @media screen and (min-width:750px) {
-    .links {
-        grid-template-columns: repeat(4, 1fr);
-    }
 
+    .links,
     .contacts {
-        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px;
+        grid-column-gap: 40px;
+        margin: 150px;
     }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1160px) {
+
+    .links,
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        grid-column-gap: 40px;
+        margin: 50px;
+    }
+
+    .signup {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
 
     .links,
     .contacts {
@@ -113,9 +136,33 @@ body {
         grid-column-gap: 40px;
         text-align: center;
         justify-content: center;
+        margin: 70px;
+    }
+
+    body {
+        height: 100%;
     }
 
     #contact_link {
+        justify-content: center;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        grid-column-gap: 50px;
+        text-align: center;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .signup {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .signup>sign_up {
         justify-content: center;
     }
 }
@@ -166,7 +213,7 @@ img {
 #text {
     color: #757575;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer-nav-links {
