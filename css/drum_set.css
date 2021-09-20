@@ -8,7 +8,7 @@ section.drum_set {
 }
 @media (min-width: 1520px) {
   section.drum_set {
-    width: 72%;
+    width: 68%;
     margin: auto;
   }
 }
