@@ -3,7 +3,7 @@
 .contacts_header .welcome {
   flex: 6;
 }
-.contacts_header spin {
+.contacts_header span {
   font-size: 14px;
   font-family: var(--font_site);
   color: var(--font_color_grey);
