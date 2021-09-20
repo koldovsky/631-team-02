@@ -1,4 +1,6 @@
 :root {
+    --greydecoration-color: #777;
+    --logo-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -54,14 +56,16 @@ footer {
     row-gap: 1em;
 }
 
-
+html,
+body {
+    height: 70%;
+}
 
 .wrapper {
-    max-height: 90%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
-
 
 .signup {
     display: grid;
@@ -198,4 +202,9 @@ a:hover {
 
 h2 {
     margin-bottom: 10px;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
 }
