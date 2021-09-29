@@ -791,13 +791,10 @@
                             </span>
                         </div>
                         <div class="on-sale-countdown">
-                            <div><span class="digits">100</span> <br> <span class="units-of-time">days</span></div>
-                            <div class="on-sale-countdown-separator"></div>
-                            <div><span class="digits">100</span> <br> <span class="units-of-time">hours</span></div>
-                            <div class="on-sale-countdown-separator"></div>
-                            <div><span class="digits">100</span> <br> <span class="units-of-time">minutes</span></div>
-                            <div class="on-sale-countdown-separator"></div>
-                            <div><span class="digits">100</span> <br> <span class="units-of-time">seconds</span></div>
+                            <div class="timer__item timer__days"></div>
+                            <div class="timer__item timer__hours"></div>
+                            <div class="timer__item timer__minutes"></div>
+                            <div class="timer__item timer__seconds"></div>
                         </div>
                     </div>
                 </div>
@@ -819,6 +816,13 @@
                     <p><span class="on-sale-price">$200</span></p>
                     <button class="on-sale-add-to-cart"><a href="#">Add to cart</a></button>
                 </article>
+            </div>
+            <div class="on-sale-carousel">
+                <div class="on-sale-slide-container"></div>
+                <div class="on-sale-button-block-carousel">
+                    <button class="on-sale-button-carousel-prev">Prev</button>
+                    <button class="on-sale-button-carousel-next">Next</button>
+                </div>
             </div>
             <div class="on-sale-banner">
                 <p class="on-sale-banner-heading">ready to shop?</p>
@@ -922,6 +926,8 @@
     <!--end of contacts and footer-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="/js/on-sale-carousel.js"></script>
+    <script src="/js/on-sale-countdown.js"></script>
 </body>
 
 </html>
