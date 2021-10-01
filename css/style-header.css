@@ -601,3 +601,26 @@ nav ul li a:hover {
   font-weight: 600;
   padding: 0px 20px 30px 50px;
 }
+
+/* style slider */
+
+.mc-slider{
+  /* display: flex; */
+}
+
+.mc-slider .slider-item{
+  max-width: 165px;
+}
+
+.mc-slider .slider-item img{
+  display: block;
+  width: 100%;
+}
+
+.slick-prev{
+  display: none!important;
+}
+
+.slick-next{
+  display: none!important;
+}
