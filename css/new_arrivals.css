@@ -1,7 +1,27 @@
-<style>
-.yellow-text {color: yellow}
+div.start-na{
 
-font-family: inherit;
+    text-align: center; 
 
-</style>
+}
 
+
+div.start-na p {
+
+text-align: center;
+color: #f8b803;
+
+}
+
+div.start-na h1 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+div.start-na h2 {
+
+    text-align: center;
+    color: #242424;
+}
+ 
