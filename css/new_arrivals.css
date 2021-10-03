@@ -1,28 +1,148 @@
-div.start-na {
 
-color: #f8b803
+
+
+div.start-na p{
+
+    text-align: center;
+    color: #f8b803;
+    font-size: 12 px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    
 
 }
 
-
-div.start-na p {
-
-text-align: center;
-color: #f8b803;
-
-}
-
-div.start-na h1 {
+div.start-na h1{
     text-align: center;
     color: black;
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
 
+   .point{
+    color: #f8b803;
+}
+    
+
+  .line{
+    
+    color: #f8b803;
+    width: 50px;
+    height: 5px;
+    align-self: center;
+    margin: auto;
+    
 }
 
-div.start-na h2 {
+   div.start-na h2{
 
     text-align: center;
-    color: #242424;
+    color: #777;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
 }
+
+
+   .product-card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding: 5px;
+}
+
+   .carousel{
+display: flex;
+flex-direction: row;
+
+}
+   .price{
+    color: #777;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+    .product-name{
+ color: black;
+ font-weight: bold;
+ font-family: 'Work Sans', sans-serif;
+}
+ 
+    .product-name:hover{
+
+    color:#f8b803 ;
+ }
+
+    .button-na{
+
+     color: white;
+     background-color:#242424 ;
+     font-family: 'Work Sans', sans-serif;
+     width: 9em;
+     height: 3em;
+     border-radius: 10%;
+     margin-bottom: 40px;
+     text-align: center;
+    }
+
+    .button-na:hover{
+
+    background-color: #f8b803;
+    border-color: #f8b803;
+ }
+
+    img{
+    width: 100%;
+    height: auto;
+
+}
+
+    .guitars{ 
+    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e456e94df1c0021914813_optimized.webp);
+    font-family: 'Work Sans', sans-serif;
+    background-size: cover;
+    height: 300px;
+
+ }
+
+    .drums{
+
+    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e4778de29030021e30741_optimized);
+    font-family: 'Work Sans', sans-serif;
+    background-size: cover;
+    height: 300px;
+
+}
+
+     .orchestric{
+
+    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e4aca8c595100220a3517_optimized);
+    font-family: 'Work Sans', sans-serif;
+    background-size: cover;
+    height: 300px;
+    
+
+   }
+
+
+   .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+
+  
+
+ 
+ 
+     
+
+ 
+
+
+
  
 
