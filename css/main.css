@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font_site: "Work Sans", sans-serif;
+  --font_color_yellow: #f8b803;
+  --font_color_black: #242424;
+  --font_color_grey: #777;
+}

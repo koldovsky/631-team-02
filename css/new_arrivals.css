@@ -1,4 +1,28 @@
+div.start-na {
 
 color: #f8b803
 
-div.start-na
+}
+
+
+div.start-na p {
+
+text-align: center;
+color: #f8b803;
+
+}
+
+div.start-na h1 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+div.start-na h2 {
+
+    text-align: center;
+    color: #242424;
+}
+ 
+

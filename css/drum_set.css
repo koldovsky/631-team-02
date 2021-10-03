@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+section.drum_set {
+  width: 90%;
+  margin: auto;
+  background-color: hsl(0, 0%, 96%);
+  transition: background-color;
+}
+@media (min-width: 1520px) {
+  section.drum_set {
+    width: 72%;
+    margin: auto;
+  }
+}
+section.drum_set div.drum_set_box {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+/* @media (min-width: 340px) {
+  section.drum_set div.drum_set_box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.1fr 0.5fr 1.4fr;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+  }
+} */
+section.drum_set div.drum_set_box div img {
+  width: 100%;
+}
+section.drum_set div.drum_set_box .drum_set_shell_pack {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+section.drum_set div.drum_set_box div.drums_set_image {
+  margin: 0px;
+}
+section.drum_set div.drum_set_box div h2 {
+  color: #f8b803;
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+section.drum_set {
+  /* margin-top: 6em;*/
+  margin-bottom: 100px;
+}
+section.drum_set div.drum_set_box h3 {
+  color: #242424;
+  font-size: 2.3em;
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: 600;
+  margin-right: 4px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+@media (min-width: 1520px) {
+  section.drum_set div.drum_set_box h3 {
+    width: 60%;
+  }
+}
+section.drum_set div.drum_set_box h3 span {
+  color: #f8b803;
+  margin: 0.3em;
+}
+section.drum_set div.drum_set_box p {
+  width: 80%;
+  color: #777;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  text-align: justify;
+}
+section.drum_set div.drum_set_box h5 {
+  font-family: var(--font_site);
+  color: var(--font_color_grey);
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: line-through;
+  margin-bottom: 2em;
+}
+section.drum_set div.drum_set_box h6 {
+  font-family: var(--font_site);
+  color: rgb(102, 153, 4);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+section.drum_set div.drum_set_box a {
+  background-color: var(--font_color_black);
+  box-sizing: border-box;
+  padding: 0.8em 1.4em;
+  font-family: var(--font_site);
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 5%;
+}
+section.drum_set div.drum_set_box a:hover {
+  background-color: var(--font_color_yellow);
+}

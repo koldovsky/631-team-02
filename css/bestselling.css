@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
-main div.start-bsi{
-    text-align: center;
+*{
     margin: 0;
     padding: 0;
+}
+.best-selling-instruments{
+    max-width: 1200px;
+    margin: auto;
+}
+.point {
+    color: orange;
+}
+.line-bsi{
+    margin: auto;
+}
+main div.start-bsi{
+    text-align: center;
+  
 
 }
 main div.start-bsi h2{
@@ -32,15 +44,24 @@ main div.guitar-month-bsi{
     background-position: center;
     min-height: 600px;
     display: flex;
-    justify-content:center;
-    align-items: center;
+    width: 100%;
     flex-direction: row-reverse;
 }
+main div.about{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items:flex-start ;
+    justify-content: flex-end;
+    
+}
 main div.about h2{
-color: orange;
+    text-align: left;
+    color: orange;
 font-size: 12px;
 }
 main div.about h3{
+    text-align: left;
     color: white;
     font-size: 40px;
     font-weight: bolder;
@@ -50,4 +71,59 @@ main div .about h4{
     color: gray;
     font-size: 18px;
     font-weight: normal;
+    
 }
+main div .yellowguitar{
+    display: flex;
+width: 50%;
+align-items: center;
+justify-content: center;
+
+}
+main .prodacts-bsi  h6{
+    color:gray;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    }
+    main .prodacts-bsi  h5{
+        color:black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    }
+    main .prodacts-bsi h5:hover{
+        color: orange;
+    }
+    main .prodacts-bsi .cards-bsi{
+        padding: 5px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    main .prodacts-bsi > .cards-bsi img{
+        display: block;
+        width: 100%;
+    }
+    main .prodacts-bsi{
+        display: flex;
+      flex-direction: row;
+        
+    }
+    
+    main div .button-card {
+        color: white;
+        background-color: #242424;
+        font-family: 'Work Sans', sans-serif;
+        width: 9em;
+        height: 3em;
+        border-radius: 10%;
+        margin-bottom: 40px;
+      }
+      main div .button-card:hover{
+          background-color: orange;
+          border-color: orange;
+      }
+      
