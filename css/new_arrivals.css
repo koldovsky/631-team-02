@@ -15,7 +15,7 @@ div.start-na h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
-
+}
 
 .line {
     color: #f8b803;
@@ -123,8 +123,42 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
    }
+.guitar-martin-na{
 
-  
+   background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/6034c54fdc77e10021a77d88_optimized.webp);
+   color: white;
+
+   
+
+}
+.buy-now-na{
+    color: #242424;
+    background-color: white ;
+    font-family: 'Work Sans', sans-serif;
+    width: 9em;
+    height: 3em;
+    border-radius: 10%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.buy-now-na:hover{
+    background-color: #f8b803;
+    border-color: #f8b803;
+    color: white;
+
+
+}
+.banner-na{
+
+    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/6033b208a34a270022c09915_optimized_1986);
+}
+.mega-sale-na{
+
+    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602fa951f491ee0021249ee5_optimized);
+}
+
+
+
 
  
  
