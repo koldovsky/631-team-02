@@ -2,6 +2,8 @@
     --greydecoration-color: #777;
     --orange-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
 }
 
 * {
@@ -55,8 +57,8 @@ footer {
 
 .contacts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
-    margin: 150px;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    margin: 100px;
     row-gap: 1em;
 }
 
@@ -84,7 +86,7 @@ body {
 }
 
 .links p {
-    height: 20px;
+    height: 30px;
 }
 
 #sign_up {
@@ -194,22 +196,11 @@ img {
 }
 
 #text {
-    max-width: 85%;
+    max-width: 100%;
 }
 
 .email {
     padding: 50px;
-}
-
-.email input {
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    background: rgba(89, 89, 89, 0.24);
-    height: 40px;
-    border-radius: 20px;
-    margin-block-start: auto;
-    color: #fff;
 }
 
 .butt {
@@ -236,7 +227,7 @@ img {
     color: #757575;
     text-decoration: none;
     font-size: 15px;
-    margin-top: 50px;
+    margin-bottom: 10%;
 }
 
 a:hover {
@@ -272,29 +263,26 @@ h2 {
     margin: auto;
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    display: block;
     width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5%;
 }
 
-.modal-content {
-    background-color: #000;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+    border-radius: 20px;
 }
 
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.form-control.success input {
+    border-color: var(--success-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);
 }
