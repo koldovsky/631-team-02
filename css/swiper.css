@@ -27,9 +27,9 @@
         border-style: hidden;
         border-radius: 5%;
         font-weight: bold;
-    }
-    .on-sale-swiper-button:hover {
-      background: var(--main-orange-color);
-  }
-    
+      }
+      .on-sale-swiper-button:hover {
+        background: var(--main-orange-color);
+      }
+              
     
