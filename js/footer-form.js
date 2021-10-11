@@ -3,14 +3,14 @@ const email = document.getElementById('email_input');
 
 function showError(input, message) {
     const formControl = input.parentElement;
-    formControl.className = 'form-control error';
+    formControl.className = 'form-contr error';
     const small = formControl.querySelector('small');
     small.innerText = message;
 }
 
 function showSuccess(input) {
     const formControl = input.parentElement;
-    formControl.className = 'form-control success';
+    formControl.className = 'form-contr success';
 }
 
 function checkEmail(input) {

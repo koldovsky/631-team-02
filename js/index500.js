@@ -14,23 +14,17 @@ const smallSlides = [
 let currentBigSlide = 0;
 function showCurrentBigSlide() {
   const slideContainer = document.querySelector(".carusel_1 .big_image");
-  //   const slideSmallContainer = document.querySelector(".images .small_image");
   slideContainer.innerHTML = bigSlides[currentBigSlide];
-  //   slideSmallContainer.innerHTML = smallSlides[currentSmallSlide];
 }
 function nextBigSlide() {
   currentBigSlide++;
   if (currentBigSlide >= bigSlides.length) currentBigSlide = 0;
-  //   currentSmallSlide = currentSlide + 1;
-  //   if (currentSmallSlide >= smallSlides.length) currentSmallSlide = 0;
   showCurrentBigSlide();
 }
 
 function prevBigSlide() {
   currentBigSlide--;
   if (currentBigSlide < 0) currentBigSlide = bigSlides.length - 1;
-  //   currentSmallSlide = currentSlide - 1;
-  //   if (currentSmallSlide < 0) currentSmallSlide = smallSlides.length - 1;
   showCurrentBigSlide();
 }
 
