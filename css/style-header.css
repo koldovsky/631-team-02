@@ -601,3 +601,10 @@ nav ul li a:hover {
   font-weight: 600;
   padding: 0px 20px 30px 50px;
 }
+
+.navbar-light .navbar-toggler{
+  margin: auto 20px;
+}
+
+/* style slider */
+

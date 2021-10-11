@@ -2,6 +2,8 @@
     --greydecoration-color: #777;
     --orange-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
 }
 
 * {
@@ -55,8 +57,8 @@ footer {
 
 .contacts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
-    margin: 150px;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    margin: 100px;
     row-gap: 1em;
 }
 
@@ -84,7 +86,7 @@ body {
 }
 
 .links p {
-    height: 20px;
+    height: 30px;
 }
 
 #sign_up {
@@ -105,7 +107,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 100px;
         grid-column-gap: 40px;
-        margin: 150px;
+        margin: 140px;
     }
 }
 
@@ -117,12 +119,28 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 200px;
         grid-column-gap: 40px;
-        margin: 50px;
+        margin: 120px;
     }
 
     .signup {
         display: grid;
         grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .links,
+    .contacts {
+        margin: 100px;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .links,
+    .contacts {
+        margin: 70px;
     }
 }
 
@@ -136,7 +154,7 @@ body {
         grid-column-gap: 40px;
         text-align: center;
         justify-content: center;
-        margin: 70px;
+        margin: 50px;
     }
 
     body {
@@ -162,8 +180,8 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .signup>sign_up {
-        justify-content: center;
+    #text {
+        max-width: 100%;
     }
 }
 
@@ -178,25 +196,14 @@ img {
 }
 
 #text {
-    max-width: 85%;
+    max-width: 100%;
 }
 
 .email {
     padding: 50px;
 }
 
-.email input {
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    background: rgba(89, 89, 89, 0.24);
-    height: 40px;
-    border-radius: 20px;
-    margin-block-start: auto;
-    color: #fff;
-}
-
-#butt {
+.butt {
     color: whitesmoke;
     text-transform: capitalize;
     background-color: #f8b803;
@@ -220,7 +227,7 @@ img {
     color: #757575;
     text-decoration: none;
     font-size: 15px;
-    margin-top: 50px;
+    margin-bottom: 10%;
 }
 
 a:hover {
@@ -254,4 +261,28 @@ h2 {
 .container {
     max-width: 980px;
     margin: auto;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+    border-radius: 20px;
+}
+
+.form-control.success input {
+    border-color: var(--success-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);
 }

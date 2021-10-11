@@ -1,0 +1,22 @@
+img{
+    max-width: 100%;
+   
+}
+
+.wrapper-slick{
+    
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 10px;
+    
+}
+
+.slick-prev{
+    background-color: #dbdad9;
+    border-radius: 100%;
+}
+
+.slick-next{
+    background-color: #dbdad9;
+    border-radius: 100%;
+}
