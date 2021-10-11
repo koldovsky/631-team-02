@@ -20,7 +20,7 @@ section.shop div.shop_title h2 {
 }
 section.shop div.shop_title {
   margin-top: 6em;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 section.shop div.shop_title h3 {
   color: #242424;
@@ -29,7 +29,7 @@ section.shop div.shop_title h3 {
   text-transform: capitalize;
   text-align: center;
   font-weight: bold;
-  margin: 20px;
+  margin: 10px;
 }
 section.shop div.shop_title h3 span {
   color: #f8b803;
@@ -46,9 +46,12 @@ section.shop div.shop_title p {
   text-align: center;
 }
 div.shop_product div.shop_button_section div button {
-  border: none;
+  height: 60px;
+  border-color: #fff;
+  border-style: double;
   background-color: #fff;
   margin-right: 20px;
+  margin-bottom: 0px;
   text-decoration: none;
   color: #777;
   font-size: 12px;
@@ -56,7 +59,12 @@ div.shop_product div.shop_button_section div button {
   font-weight: bold;
   text-transform: uppercase;
 }
-div.shop_product div.shop_button_section button:hover {
+div.shop_product div.shop_button_section div button:focus {
+  border-top-color: #fff;
+  border-right-color: #fff;
+  border-left-color: #fff;
+  border-bottom-color: darkgreen;
+  border-style: double;
   color: #242424;
 }
 @media (min-width: 840px) {
@@ -76,11 +84,8 @@ div.shop_product div.shop_button_section {
   margin-left: 21%;
   margin-bottom: 20px;
 }
-.line_instruments hr{
-  width: 100px;
-  color: rgb(63, 92, 8);
-  height: 5px;
-  margin-bottom: -5px;
+.line_product_divider {
+  margin-top: -20px;
 }
 /* electric guitar in column */
 
@@ -131,183 +136,3 @@ div.shop_product div.shop_button_section {
     margin-bottom: 30px;
   }
 }
-/* acoustic guitar in column */
-/* 
-.ag_guitar div img {
-  width: 100%;
-  margin: 0px;
-}
-.ag_guitar div {
-  margin: 5px;
-}
-.ag_guitar div a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: var(--font_site);
-  color: var(--font_color_black);
-}
-.ag_guitar div a:hover {
-  color: #f8b803;
-}
-/* price-style  */
-.ag_guitar div spin {
-  color: var(--font_color_grey);
-  font-family: var(--font_site);
-  font-size: 1.1em;
-  font-weight: bold;
-  margin: 0px;
-}
-.ag_guitar div button {
-  width: 9em;
-  height: 3em;
-  background-color: var(--font_color_black);
-  color: #fff;
-  border: var(--font_color_black);
-  border-radius: 5%;
-}
-@media (min-width: 640px) {
-  .ag_guitar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
-}
-/* drums in column */
-
-.drums_shop div img {
-  width: 100%;
-  margin: 0px;
-}
-.drums_shop div {
-  margin: 5px;
-}
-.drums_shop div a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: var(--font_site);
-  color: var(--font_color_black);
-}
-.drums_shop div a:hover {
-  color: #f8b803;
-}
-/* price-style */
-.drums_shop div spin {
-  color: var(--font_color_grey);
-  font-family: var(--font_site);
-  font-size: 1.1em;
-  font-weight: bold;
-  margin: 0px;
-}
-.drums_shop div button {
-  width: 9em;
-  height: 3em;
-  background-color: var(--font_color_black);
-  color: #fff;
-  border: var(--font_color_black);
-  border-radius: 5%;
-}
-@media (min-width: 640px) {
-  .drums_shop {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
-}
-/* orchesteric in column */
-
-.orchestric_shop div img {
-  width: 100%;
-  margin: 0px;
-}
-.orchestric_shop div {
-  margin: 5px;
-}
-.orchestric_shop div a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: var(--font_site);
-  color: var(--font_color_black);
-}
-.orchestric_shop div a:hover {
-  color: #f8b803;
-}
-/* price-style */
-.orchestric_shop div spin {
-  color: var(--font_color_grey);
-  font-family: var(--font_site);
-  font-size: 1.1em;
-  font-weight: bold;
-  margin: 0px;
-}
-.orchestric_shop div button {
-  width: 9em;
-  height: 3em;
-  background-color: var(--font_color_black);
-  color: #fff;
-  border: var(--font_color_black);
-  border-radius: 5%;
-}
-@media (min-width: 640px) {
-  .orchestric_shop {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
-}
-/* orchesteric in column */
-
-.other_shop div img {
-  width: 100%;
-  margin: 0px;
-}
-.other_shop div {
-  margin: 5px;
-}
-.other_shop div a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: var(--font_site);
-  color: var(--font_color_black);
-}
-.other_shop div a:hover {
-  color: #f8b803;
-}
-/* price-style */
-.other_shop div spin {
-  color: var(--font_color_grey);
-  font-family: var(--font_site);
-  font-size: 1.1em;
-  font-weight: bold;
-  margin: 0px;
-}
-.other_shop div button {
-  width: 9em;
-  height: 3em;
-  background-color: var(--font_color_black);
-  color: #fff;
-  border: var(--font_color_black);
-  border-radius: 5%;
-}
-@media (min-width: 640px) {
-  .other_shop {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
-} */

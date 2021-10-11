@@ -1,71 +1,42 @@
-const electric = [
-  {
-    id: 1,
-    name: "Raven Bee RB500 Exotic Style Guitar",
-    image: "img/electric_guitar_RB500.jpg",
-    price: 450.0,
-  },
-  {
-    id: 2,
-    name: "Dickson Studio ER100 Electric Guitar",
-    image: "img/electric_guitar_ER100.jpg",
-    price: 180.0,
-  },
-  {
-    id: 3,
-    name: "Dean Doe TRO4506 Electric Guitar",
-    image: "img/electric_guitar_TRO4506.jpg",
-    price: 220.0,
-  },
-  {
-    id: 4,
-    name: "Raven Classic RT45 Electric Guitar",
-    image: "img/electric_guitar_RT45.jpg",
-    price: 300.0,
-  },
-];
-const acoustic = [
-  {
-    id: 5,
-    name: "Deanson VV02 Acoustic Guitar",
-    image: "img/acoustic_guitar_VV02.jpg",
-    price: 112.0,
-  },
-  {
-    id: 6,
-    name: "Kuro Music Studio S-35 Acoustic Guitar",
-    image: "img/acoustic_guitar_S_35.jpg",
-    price: 105.0,
-  },
-  {
-    id: 7,
-    name: "Raven RT1 Acoustic-Electric Guitar",
-    image: "img/acoustic_guitar_RT1.jpg",
-    price: 110.0,
-  },
-  {
-    id: 8,
-    name: "Fogue RA-090 Acoustic Guitar",
-    image: "img/acoustic_guitar_RA_090.jpg",
-    price: 110.0,
-  },
-];
+async function getInstrument(instrumentUrl) {
+  const responce = await fetch(instrumentUrl);
+  const instrument = await responce.json(instruments_cards);
+  return instrument;
+}
+const electric = [];
+const acoustic = [];
+const drums = [];
+const orchestric = [];
+const other = [];
 
-function electricProducts(electric) {
-  const productsContainer1 = document.querySelector(".selection_instruments");
-  productsContainer1.innerHTML = "";
-  for (const product1 of electric) {
-    productsContainer1.innerHTML += `<div>
+for (pages of instrument) {
+  if (pages.id > 0 && pages.id <= 4) {
+    electric.push(pages);
+  } else if (pages.id > 4 && pages.id <= 8) {
+    acoustic.push(pages);
+  } else if (pages.id > 8 && pages.id <= 12) {
+    drums.push(pages);
+  } else if (pages.id > 12 && pages.id <= 16) {
+    orchestric.push(pages);
+  } else if (pages.id > 16 && pages.id <= 20) {
+    other.push(pages);
+  }
+}
+function showInstruments(group_of_instrument) {
+  const instrumentContainer = document.querySelector(".selection_instruments");
+  instrumentContainer.innerHTML = "";
+  for (const elem of group_of_instrument) {
+    instrumentContainer.innerHTML += `<div>
         <div>
           <a href="page_guitar_RB500">
-            <img src="${product1.image}" alt="${product1.name}">
+            <img src="${elem.image}" alt="${elem.name}">
           </a>
         </div>
         <div class=box_for_text>
-          <a href="page_guitar_RB500">${product1.name}</a>
+          <a href="page_guitar_RB500">${elem.name}</a>
         </div>
         <div>
-          <spin>${product1.price}</spin>
+          <spin>$${elem.price}</spin>
         </div>
         <div>
           <button type="button" class="button_add_cart">Add to Cart</button>
@@ -74,27 +45,9 @@ function electricProducts(electric) {
   }
 }
 
-function acousticProducts(acoustic) {
-  const productsContainer2 = document.querySelector(".selection_instruments");
-  productsContainer2.innerHTML = "";
-  for (const product2 of acoustic) {
-    productsContainer2.innerHTML += `<div>
-        <div>
-          <a href="page_guitar_RB500">
-            <img src="${product2.image}" alt="${product2.name}">
-          </a>
-        </div>
-        <div class=box_for_text>
-          <a href="page_guitar_RB500">${product2.name}</a>
-        </div>
-        <div>
-          <spin>${product2.price}</spin>
-        </div>
-        <div>
-          <button type="button" class="button_add_cart">Add to Cart</button>
-        </div>
-      </div>`;
-  }
+async function loadInstrument(group_of_instrument) {
+  const instrument = await getInstrument("instruments_cards.json");
+  showInstruments(group_of_instrument);
 }
 
-electricProducts(electric);
+loadInstrument(electric);
