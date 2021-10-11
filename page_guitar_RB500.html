@@ -18,17 +18,18 @@
             <a class="col-md-2 w-20" href="#" >+1 (234) 567 89 00</a>
         </div>
         <div class="header_background">
-            <div class="headers row w-75">
-                <div class="logo col-sm-4">
+            <div class="headers w-75">
+                <!-- <div class="logo col-sm-4">
                     <a href="/#header"><img src ="img/img-header/logo-header.svg" alt="company_logo" width=180></a>
-                </div>
+                </div> -->
                 <!-- bootsrap try burger navbar-light bg-light -->
-                <nav class="navbar navbar-expand-lg col-sm-8">
+                <nav class="navbar navbar-expand-lg" style="background-color: #f8b803" width=100>
                     <div class="container-fluid">
+                        <a class="navbar-brand" href="/#header"><img src="img/img-header/logo-header.svg" alt="company_logo" width=180></a>
                         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon "></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav navigation w-100">
@@ -40,11 +41,12 @@
                                 <a class="nav-link " href="/#shop">Orchestric</a>
                                 <a class="nav-link " href="/#sp-rates">Contacts</a>
                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                                <div class="nav-link social_media">
-                                    <a class="soc" href="#">fac</a>
-                                    <a class="soc" href="#" >ins</a>
-                                    <a class="soc" href="#">you</a>
-                                </div>
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                                <!-- <div class="nav-link social_media"> -->
+                                <a class="nav-link soc" href="#">fac</a>
+                                <a class="nav-link soc" href="#" >ins</a>
+                                <a class="nav-link soc" href="#">you</a>
+                                <!-- </div> -->
                             </div>
                         </div>
                     </div>
@@ -58,7 +60,7 @@
         </div>
         <div class=box>
             <div class="images">
-                <div id="carouselExampleControls" class="carousel slide big_image" data-bs-ride="carousel">
+                <!-- <div id="carouselExampleControls" class="carousel slide big_image" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="img/electric_guitar_RB500.jpg" class="d-block w-100" alt="electric_guitar_RB500.jpg">
@@ -75,11 +77,18 @@
                         <span class="carousel-control-next-icon arrowss" aria-hidden="true"></span>
                         <span class="visually-hidden ">Next</span>
                     </button>
-                </div>
-
-                <!-- <div class=big_image>
-                    <a href="#"><img src="img/electric_guitar_RB500.jpg" alt="Raven Bee RB500 Exotic Style Guitar" width=430></a>
                 </div> -->
+                <div class="carusel_1">
+                    <div>
+                        <button type="button" class="btnPrev"><</button>
+                    </div>
+                    <div class="big_image">
+                    
+                    </div> <!-- <a href="#"><img src="img/electric_guitar_RB500.jpg" alt="Raven Bee RB500 Exotic Style Guitar" width=430></a> -->
+                    <div>
+                        <button type="button" class="btnNext">></button>
+                    </div>  
+                </div>
                 <div class="small_image">
                     <img src="img/electric_guitar_RB500_small.jpg" alt="Preview Raven Bee RB500 Exotic Style Guitar">
                 </div>
@@ -129,5 +138,6 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous">
     </script>
+    <script src="js/index500.js"></script>
     </body>
 </html>

@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+/* 
+@media (min-width: 1520px) {
+  .box {
+    width: 75%;
+    margin: auto;
+  } */
 
 .contacts_header span {
   font-size: 15px;
@@ -41,7 +47,7 @@
   font-weight: bold;
   font-size: 15px;
   text-align: right;
-  margin-right: auto;
+  margin: auto;
 }
 
 .box_name {
@@ -71,13 +77,41 @@ body div a {
   display: flex;
   flex-direction: column;
   flex: 1;
+  /* z-index: -1 !important; */
 }
-.big_image {
+.carusel_1 {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+.carusel_1 .big_image {
   flex: 2;
   margin: auto;
 }
-.small_image {
+
+.carusel_1 .btnPrev {
+  background: none;
+  opacity: 0.2;
+  height: 100%;
+  font-size: 60px;
   flex: 1;
+  color: var(--font_color_grey);
+  border: none;
+  margin: auto;
+}
+.carusel_1 .btnNext {
+  background: none;
+  color: var(--font_color_grey);
+  border: none;
+  height: 100%;
+  opacity: 0.2;
+  flex: 1;
+  font-size: 60px;
+  margin: auto;
+}
+.images .small_image {
+  flex: 1;
+  border-color: black;
 }
 .arrowss {
   background-color: var(--font_color_grey);

@@ -45,7 +45,9 @@ section.shop div.shop_title p {
   font-family: "Work Sans", sans-serif;
   text-align: center;
 }
-div.shop_product div.shop_button_section div a {
+div.shop_product div.shop_button_section div button {
+  border: none;
+  background-color: #fff;
   margin-right: 20px;
   text-decoration: none;
   color: #777;
@@ -54,11 +56,11 @@ div.shop_product div.shop_button_section div a {
   font-weight: bold;
   text-transform: uppercase;
 }
-div.shop_product div.shop_button_section a:hover {
+div.shop_product div.shop_button_section button:hover {
   color: #242424;
 }
 @media (min-width: 840px) {
-  div.shop_product div.shop_button_section div a {
+  div.shop_product div.shop_button_section div button {
     font-size: 16px;
     text-transform: none;
   }
@@ -74,34 +76,44 @@ div.shop_product div.shop_button_section {
   margin-left: 21%;
   margin-bottom: 20px;
 }
+.line_instruments hr{
+  width: 100px;
+  color: rgb(63, 92, 8);
+  height: 5px;
+  margin-bottom: -5px;
+}
 /* electric guitar in column */
 
-.eg_guitar div img {
+.selection_instruments div img {
   width: 100%;
   margin: 0px;
 }
-.eg_guitar div {
+.selection_instruments div {
   margin: 5px;
 }
-.eg_guitar div a {
+.selection_instruments .box_for_text {
+  width: 100%;
+  height: 40px;
+}
+.selection_instruments .box_for_text a {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   font-family: var(--font_site);
   color: var(--font_color_black);
 }
-.eg_guitar div a:hover {
+.selection_instruments div a:hover {
   color: #f8b803;
 }
 /* price-style */
-.eg_guitar div spin {
+.selection_instruments div spin {
   color: var(--font_color_grey);
   font-family: var(--font_site);
   font-size: 1.1em;
   font-weight: bold;
   margin: 0px;
 }
-.eg_guitar div button {
+.selection_instruments div button {
   width: 9em;
   height: 3em;
   background-color: var(--font_color_black);
@@ -110,7 +122,7 @@ div.shop_product div.shop_button_section {
   border-radius: 5%;
 }
 @media (min-width: 640px) {
-  .eg_guitar {
+  .selection_instruments {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -120,7 +132,7 @@ div.shop_product div.shop_button_section {
   }
 }
 /* acoustic guitar in column */
-
+/* 
 .ag_guitar div img {
   width: 100%;
   margin: 0px;
@@ -298,4 +310,4 @@ div.shop_product div.shop_button_section {
     justify-content: space-between;
     margin-bottom: 30px;
   }
-}
+} */
