@@ -1,172 +1,136 @@
-
-div.start-na p {
-
-    text-align: center;
-    color: #f8b803;
-    font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-
+.new-arrivals {
+  width: 72%;
+  margin: auto;
+}
+.new div.start-na p {
+  text-align: center;
+  color: #f8b803;
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
 }
 
 div.start-na h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .line {
-    color: #f8b803;
-    width: 50px;
-    height: 5px;
-    align-self: center;
-    margin: auto; 
-
+  color: #f8b803;
+  width: 50px;
+  height: 5px;
+  align-self: center;
+  margin: auto;
 }
-    
-div.start-na h2 {
 
-    text-align: center;
-    color: #777;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
+div.start-na h2 {
+  text-align: center;
+  color: #777;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
 }
 
 .product-card {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: auto;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  padding: 5px;
 }
 
 .carousel {
-   display: flex;
-   flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 .price {
-    color: #777;
-    font-weight: bold;
-    font-family: 'Work Sans', sans-serif;
-
+  color: #777;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
 }
 
 .product-name {
-    color: black;
-    font-weight: bold;
-    font-family: 'Work Sans', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
 }
- 
-.product-name:hover {
 
-    color:#f8b803 ;
- }
+.product-name:hover {
+  color: #f8b803;
+}
 
 .button-na {
-
-     color: white;
-     background-color:#242424 ;
-     font-family: 'Work Sans', sans-serif;
-     width: 9em;
-     height: 3em;
-     border-radius: 10%;
-     margin-bottom: 40px;
-     text-align: center;
-    }
-
-.button-na:hover {
-
-    background-color: #f8b803;
-    border-color: #f8b803;
- }
-
-img {
-    width: 100%;
-    height: auto;
-
+  color: white;
+  background-color: #242424;
+  font-family: "Work Sans", sans-serif;
+  width: 9em;
+  height: 3em;
+  border-radius: 10%;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.guitars { 
-    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e456e94df1c0021914813_optimized.webp);
-    font-family: 'Work Sans', sans-serif;
-    background-size: cover;
-    height: 300px;
+.button-na:hover {
+  background-color: #f8b803;
+  border-color: #f8b803;
+}
 
- }
+img {
+  width: 100%;
+  height: auto;
+}
+
+.guitars {
+  background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e456e94df1c0021914813_optimized.webp);
+  font-family: "Work Sans", sans-serif;
+  background-size: cover;
+  height: 300px;
+}
 
 .drums {
-
-    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e4778de29030021e30741_optimized);
-    font-family: 'Work Sans', sans-serif;
-    background-size: cover;
-    height: 300px;
-
+  background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e4778de29030021e30741_optimized);
+  font-family: "Work Sans", sans-serif;
+  background-size: cover;
+  height: 300px;
 }
 
 .orchestric {
-
-    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e4aca8c595100220a3517_optimized);
-    font-family: 'Work Sans', sans-serif;
-    background-size: cover;
-    height: 300px;
-    
-   }
-
+  background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602e4aca8c595100220a3517_optimized);
+  font-family: "Work Sans", sans-serif;
+  background-size: cover;
+  height: 300px;
+}
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-   }
-.guitar-martin-na{
-
-   background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/6034c54fdc77e10021a77d88_optimized.webp);
-   color: white;
-
-   
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.buy-now-na{
-    color: #242424;
-    background-color: white ;
-    font-family: 'Work Sans', sans-serif;
-    width: 9em;
-    height: 3em;
-    border-radius: 10%;
-    margin-bottom: 40px;
-    text-align: center;
+.guitar-martin-na {
+  background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/6034c54fdc77e10021a77d88_optimized.webp);
+  color: white;
 }
-.buy-now-na:hover{
-    background-color: #f8b803;
-    border-color: #f8b803;
-    color: white;
-
-
+.buy-now-na {
+  color: #242424;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
+  width: 9em;
+  height: 3em;
+  border-radius: 10%;
+  margin-bottom: 40px;
+  text-align: center;
 }
-.banner-na{
-
-    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/6033b208a34a270022c09915_optimized_1986);
+.buy-now-na:hover {
+  background-color: #f8b803;
+  border-color: #f8b803;
+  color: white;
 }
-.mega-sale-na{
-
-    background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602fa951f491ee0021249ee5_optimized);
+.banner-na {
+  background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/6033b208a34a270022c09915_optimized_1986);
 }
-
-
-
-
- 
- 
-     
-
- 
-
-
-
- 
-
+.mega-sale-na {
+  background-image: url(https://res2.weblium.site/res/602bc9f29cc2370021a185bf/602fa951f491ee0021249ee5_optimized);
+}
