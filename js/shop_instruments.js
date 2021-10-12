@@ -1,31 +1,43 @@
-async function getInstrument(instrumentUrl) {
-  const responce = await fetch(instrumentUrl);
-  const instrument = await responce.json(instruments_cards);
-  return instrument;
+async function getInstrument(url) {
+  const responce = await fetch(url);
+  const instruments = await responce.json();
+  return instruments;
 }
-const electric = [];
-const acoustic = [];
-const drums = [];
-const orchestric = [];
-const other = [];
+// function getJson(url, callback) {
+//   fetch(url)
+//     .then((responce) => Response.json())
+//     .then((instruments_cards) => callback(instruments_cards));
+// }
+// function getJson(url, callback) {
+//   const xhr = new XMLHttpRequest();
+//   xhr.onreadystatechange = function () {
+//     if (xhr.readyState === 4 && xhr.status === 200) {
+//       const data = JSON.parse(xhr.responseText);
+//       callback(instruments_cards);
+//     }
+//   };
+//   xhr.open("GET", url, true);
+//   xhr.send();
+// }
 
-for (pages of instrument) {
-  if (pages.id > 0 && pages.id <= 4) {
-    electric.push(pages);
-  } else if (pages.id > 4 && pages.id <= 8) {
-    acoustic.push(pages);
-  } else if (pages.id > 8 && pages.id <= 12) {
-    drums.push(pages);
-  } else if (pages.id > 12 && pages.id <= 16) {
-    orchestric.push(pages);
-  } else if (pages.id > 16 && pages.id <= 20) {
-    other.push(pages);
-  }
+let electric = [];
+let acoustic = [];
+let drums = [];
+let orchestric = [];
+let other = [];
+
+for (pages of instruments) {
+  if (pages.id > 0 && pages.id <= 4) electric.push(pages);
+  if (pages.id > 4 && pages.id <= 8) acoustic.push(pages);
+  if (pages.id > 8 && pages.id <= 12) drums.push(pages);
+  if (pages.id > 12 && pages.id <= 16) orchestric.push(pages);
+  if (pages.id > 16 && pages.id <= 20) otherOther.push(pages);
 }
-function showInstruments(group_of_instrument) {
+
+function showInstruments(group_of_pages) {
   const instrumentContainer = document.querySelector(".selection_instruments");
   instrumentContainer.innerHTML = "";
-  for (const elem of group_of_instrument) {
+  for (const elem of group_of_pages) {
     instrumentContainer.innerHTML += `<div>
         <div>
           <a href="page_guitar_RB500">
@@ -44,10 +56,10 @@ function showInstruments(group_of_instrument) {
       </div>`;
   }
 }
+// getJson("instruments_cards.json", showInstruments);
 
-async function loadInstrument(group_of_instrument) {
-  const instrument = await getInstrument("instruments_cards.json");
-  showInstruments(group_of_instrument);
+async function loadInstrument(group_of_pages) {
+  const instruments = await getInstrument(instruments.json);
+  showInstruments(group_of_pages);
 }
-
 loadInstrument(electric);
