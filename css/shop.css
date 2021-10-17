@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
-
 .shop_product {
   width: 90%;
   margin: auto;
 }
 @media (min-width: 1520px) {
   .shop_product {
-    width: 72%;
+    width: 1200px;
     margin: auto;
   }
 }
@@ -63,7 +61,7 @@ div.shop_product div.shop_button_section div button:focus {
   border-top-color: #fff;
   border-right-color: #fff;
   border-left-color: #fff;
-  border-bottom-color: darkgreen;
+  border-bottom-color: var(--font_color_yellow);
   border-style: double;
   color: #242424;
 }
@@ -119,7 +117,7 @@ div.shop_product div.shop_button_section {
   margin: 0px;
 }
 .selection_instruments div button {
-  width: 9em;
+  width: 8em;
   height: 3em;
   background-color: var(--font_color_black);
   color: #fff;

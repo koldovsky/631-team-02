@@ -70,9 +70,9 @@ main div .about h4 {
   font-weight: normal;
 }
 main div .yellowguitar {
-  display: flex;
-  width: 15%;
-  margin: 40px;
+  /* display: flex; */
+  width: 13em;
+  margin: 3em;
   align-items: center;
   justify-content: center;
 }

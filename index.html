@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/bestselling.css">
     <link rel="shortcut icon" href="img/acoustic_guitar_RA_090.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/on-sale.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/shop.css">
@@ -25,6 +26,8 @@
     <link rel="stylesheet" href="css/slick-style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/store_hopmepage.css">
+    
 
     <title>Instrumental store</title>
 
@@ -431,90 +434,25 @@
             <div class="shop_product">
                 <div class="shop_button_section" id="button_section">
                     <div >
-                        <button class="button_eg_guitar" type="button" onclick="loadInstuments([0,1,2,3])">Electric Guitars</button>
+                        <button class="button_eg_guitar" type="button" onclick="showInstruments(electric)">Electric Guitars</button>
                     </div>
                     <div >
-                        <button class="button_ag_guitar" type="button" onclick="loadInstruments([4,5,6,7])">Acoustic Guitars</button>
+                        <button class="button_ag_guitar" type="button" onclick="showInstruments(acoustic)">Acoustic Guitars</button>
                     </div>
                     <div>
-                        <button class="button_drums" type="button" onclick="loadInstruments([8,9,10,11])">Drums</button>
+                        <button class="button_drums" type="button" onclick="showInstruments(drums)">Drums</button>
                     </div>
                     <div>
-                        <button class="button_orchestric" type="button" onclick="loadInstruments([12,13,14,15])">Orchestric</button>
+                        <button class="button_orchestric" type="button" onclick="showInstruments(orchestric)">Orchestric</button>
                     </div>
                     <div>
-                        <button class="button_other" type="button" onclick="loadInstruments([16,17,18,19])">Other</button>
+                        <button class="button_other" type="button" onclick="showInstruments(other)">Other</button>
                     </div>
                 </div>
                 <hr class="line_product_divider">
                 <br>
                 <div class="selection_instruments">
-                    <!-- <div>
-                        <div>
-                            <a href="page_guitar_RB500">
-                                <img src="img/acoustic_guitar_VV02.jpg" alt="Deanson VV02 Acoustic Guitar">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="page_guitar_VV02">Deanson VV02 Acoustic Guitar</a>
-                        </div>
-                        <div>
-                            <spin>$112.00</spin>
-                        </div>
-                        <div>
-                            <button type="button">Add to Cart</button>
-                        </div>
-                        </div>
-                        <div>
-                            <div>
-                                <a href="page_guitar_S_35">
-                                    <img src="img/acoustic_guitar_S_35.jpg" alt="Kuro Music Studio S-35 Acoustic Guitar">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="page_guitar_S_35">Kuro Music Studio S-35 Acoustic Guitar</a>
-                            </div>
-                            <div>
-                                <spin>$105.00</spin>
-                            </div>
-                            <div>
-                                <button type="button">Add to Cart</button>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <a href="page_guitar_RT1">
-                                    <img src="img/acoustic_guitar_RT1.jpg" alt="Raven RT1 Acoustic-Electric Guitar">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="page_guitar_RT1">Raven RT1 Acoustic-Electric Guitar</a>
-                            </div>
-                            <div>
-                                <spin>$110.00</spin>
-                            </div>
-                            <div>
-                                <button type="button">Add to Cart</button>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <a href="page_guitar_RA_090">
-                                    <img src="img/acoustic_guitar_RA_090.jpg" alt="Fogue RA-090 Acoustic Guitar">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="page_guitar_RA_090">Fogue RA-090 Acoustic Guitar</a>
-                            </div>
-                            <div>
-                                <spin>$110.00</spin>
-                            </div>
-                            <div>
-                                <button type="button">Add to Cart</button>
-                            </div>
-                        </div> 
-                    </div>
-                </div> -->
+                </div> 
             </div>
         </section>
         <section class="drum_set" id="drum_set">
@@ -534,7 +472,7 @@
                         <h6>$2,599</h6>
                     </div>
                     <div>
-                        <a href="#up-to40%-of">Shop Now</a>
+                        <a href="#on-sale-section">Shop Now</a>
                     </div>
                 </div>
                 <div class="col-md-4 drums_set_image">
@@ -546,7 +484,7 @@
         <!--end VUNTESMERI-->
 
         <!--section on-sale shows discounted products. written by Dima Diachkov-->
-        <section class="on-sale-section">
+        <section class="on-sale-section" id="on-sale-section">
             <div class="on-sale-main-block">
                 <div class="marketing-cell">
                     <div class="on-sale-title-block">
@@ -710,7 +648,7 @@
 
         <!--end of contacts and footer-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
         
 
@@ -727,9 +665,11 @@
         <script src="js/on-sale-products.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="js/swiper.js"></script>
-       
+        
+        <script src="js/shop_instruments.js"></script>
         <script src="js/store_product_page.js"></script>
         <script src="js/index500.js"></script>
-        <script src="js/shop_instruments.js"></script>
+        
+        
 </body>
 </html>
