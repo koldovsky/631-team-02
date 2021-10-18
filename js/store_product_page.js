@@ -167,7 +167,7 @@ function show_instrument(page) {
   <div class="box_for_card">
     <div class="images_card">
       <div class="carusel_1">
-        <button type="button" class="btnPrev1"><</button>
+        <button type="button" class="btnPrev1" onclick="prevBigSlide()"><</button>
         <a href = "/page_product_image.html" class="page_100" data-id="${page}")>
           <div class="big_image" >
             <img  src="${page.image}" alt="${page.name}" ></img>
