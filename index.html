@@ -435,19 +435,19 @@
             <div class="shop_product">
                 <div class="shop_button_section" id="button_section">
                     <div >
-                        <button class="button_eg_guitar" type="button" onclick="show4Instruments(electric)">Electric Guitars</button>
+                        <button class="button_eg_guitar" type="button" >Electric Guitars</button>
                     </div>
                     <div >
-                        <button class="button_ag_guitar" type="button" onclick="show4Instruments(acoustic)">Acoustic Guitars</button>
+                        <button class="button_ag_guitar" type="button" >Acoustic Guitars</button>
                     </div>
                     <div>
-                        <button class="button_drums" type="button" onclick="show4Instruments(drums)">Drums</button>
+                        <button class="button_drums" type="button" >Drums</button>
                     </div>
                     <div>
-                        <button class="button_orchestric" type="button" onclick="show4Instruments(orchestric)">Orchestric</button>
+                        <button class="button_orchestric" type="button" >Orchestric</button>
                     </div>
                     <div>
-                        <button class="button_other" type="button" onclick="show4Instruments(other)">Other</button>
+                        <button class="button_other" type="button" >Other</button>
                     </div>
                 </div>
                 <hr class="line_product_divider">
@@ -458,7 +458,7 @@
         </section>
         <section class="drum_set" id="drum_set">
             <div class="drum_set_box row">
-                <!--drum set-->
+                <!--drum set onclick="loadInstrument(instruments)"-->
                 <div class="col-md-5 drum_set_shell_pack">
                     <h2>drum set</h2>
                     <h3>Horton Brown Maple 5-Piece Shell Pack<span>.</span></h3>
@@ -646,19 +646,25 @@
             </footer>
         </div>
 
-
-        <!--end of contacts and footer-->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script> -->
+<!--end of contacts and footer -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-        
-
-        <!-- <script src="js/on-sale-carousel.js"></script>
-        <script src="js/on-sale-countdown.js"></script> -->
-        
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
         <script src="js/on-sale-carousel.js"></script>
         <script src="js/on-sale-countdown.js"></script>
+       
+        
+
+        
+        <script src="js/instrument-services.js"></script>
+        <script src="js/shop_instruments.js"></script>
+        <script src="js/store_product_page.js"></script>
+        <script src="js/add_image_carousel.js"></script>
+
+
+
         <script src="js/footer-form.js"></script>
         <script src="js/slick-slaider.js"></script>
         <script src="js/slick.min.js"></script>
@@ -666,11 +672,6 @@
         <script src="js/on-sale-products.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="js/swiper.js"></script>
-        
-        <script src="js/shop_instruments.js"></script>
-        <script src="js/store_product_page.js"></script>
-        <script src="js/index500.js"></script>
-        
-        
+    
 </body>
 </html>

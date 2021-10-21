@@ -64,7 +64,10 @@
 
 .box_name {
   width: 72%;
-  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body div a {
   font-family: var(--font_site);
@@ -72,27 +75,21 @@ body div a {
   color: var(--font_color_black);
   text-decoration: none;
 }
-.selection_instruments .box_for_card {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+.box_for_card1 {
+  width: 90%;
+  margin: auto;
 }
 @media (min-width: 880px) {
-  .selection_instruments .box_for_card {
-    width: 100%;
+  .box_for_card1 {
+    width: 72%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  .page_1 .box_for_card1 {
-    width: 650px;
     margin: auto;
-    height: 400px;
   }
 }
-.box_for_card .images_card {
+.box_for_card1 .images_card {
   display: grid;
-  grid-template-rows: 4fr 1fr;
-  flex: 1;
+  grid-template-rows: 2fr 1fr;
 }
 .images_card .carusel_1 {
   display: grid;
@@ -129,55 +126,51 @@ body div a {
   height: 100%;
   font-size: 2em;
 }
-.images_card .small_image {
-  flex: 1;
-  width: 92px;
-}
 
 .images_card .small_image img {
   border: 1px solid var(--font_color_black);
   margin: 0px;
   padding: 0px;
+  width: 112px;
 }
 
-.selection_instruments .description_card {
+.box_for_card1 .description_card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
-.selection_instruments .description_card h3 {
+.box_for_card1 .description_card h3 {
   font-size: 1em;
   font-family: var(--font_site);
   color: #61a854;
 }
-.selection_instruments .description_card h4 {
+.box_for_card1 .description_card h4 {
   color: var(--font_color_black);
   font-family: var(--font_site);
   font-size: 1.6em;
 }
-.selection_instruments .description_card p {
+.box_for_card1 .description_card p {
   color: var(--font_color_black);
   font-family: var(--font_site);
   font-size: 0.75em;
   font-weight: bold;
 }
-.selection_instruments .description_card h5 {
+.box_for_card1 .description_card h5 {
   color: var(--font_color_grey);
   font-family: var(--font_site);
   font-size: 1.3em;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-.selection_instruments .description_card .button_container {
+.box_for_card1 .description_card .button_container {
   margin-top: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.selection_instruments .description_card .button_container .counter {
+.box_for_card1 .description_card .button_container .counter {
   font-family: var(--font_site);
   font-size: 1em;
   text-align: center;
