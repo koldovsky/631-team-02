@@ -79,7 +79,7 @@ body div a {
   width: 90%;
   margin: auto;
 }
-@media (min-width: 880px) {
+@media (min-width: 640px) {
   .box_for_card1 {
     width: 72%;
     display: grid;
