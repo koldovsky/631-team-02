@@ -10,6 +10,7 @@
          "<img src='img/electric_guitar_RB500.jpg' alt='Raven Classic RT45 Electric Guitar'>"
       ],
       "price":450.0,
+      "type": "electric",
       "code":44,
       "description":"This guitar is for those who are ready to amaze others and stand out from the crowd! The unique design of this guitar will be visible from afar.",
       "features":"<li>-Body wood: alder</li><li>- Scale length: 25.5</li><li>- Fingerboard radius: 10-14</li><li>- Control layout: 1 volume, 1 tone</li>"
@@ -25,6 +26,7 @@
          "<img src='img/electric_guitar_RB500.jpg' alt='Raven Classic RT45 Electric Guitar'>"
       ],
       "price":180.0,
+      "type": "electric",
       "code":23,
       "description":"This guitar was first introduced back in 1985 and is still one of the most beloved guitars among our customers.",
       "features":"<li>- Double cutaway</li><li>- Solid maple</li><li>- Scale length: 25.5 in.</li>"
@@ -40,6 +42,7 @@
          "<img src='img/electric_guitar_TRO4506.jpg' alt='Dean Doe TRO4506 Electric Guitar'>"
       ],
       "price":220.0,
+      "type": "electric",
       "code":26,
       "description":"A bright guitar for your bright performances. It features a single-cut design, quality maple, and a deep sound you won't be disappointed with.",
       "features":"<li>- Single cutaway</li><li>- Scale length: 24.75 in.</li><li>- Number of frets: 21</li>"
@@ -55,6 +58,7 @@
          "<img src='img/electric_guitar_RT45.jpg' alt='Raven Classic RT45 Electric Guitar'>"
       ],
       "price":300.0,
+      "type": "electric",
       "code":45,
       "description":"This electric guitar has a classic design and is created for ease of playability. The ultra-thin maple neck makes it easy to use the 22-fret fingerboard.",
       "features":"<li>- Scale length: 25-1/2</li><li>- Nut Width: 1.69\"(43mm)</li><li>- Controls: Volume, Tone, 5-way blade pickup selector</li>"

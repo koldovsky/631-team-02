@@ -4,7 +4,7 @@ function show4Instruments(groups) {
   for (let elem of groups) {
     instrumentContainer.innerHTML += `<div>
       <div>
-        <a class="toProduct_${elem.id}"  href="page_product_image.html" onmouseover="localStorage.setItem('id', '${elem.id}')">
+        <a class="toProduct_${elem.id}"  href="page_product_image.html" onmouseover="localStorage.setItem('id', '${elem.id}')" >
           <img src="${elem.image}"  alt="${elem.name}">
         </a>
       </div>
