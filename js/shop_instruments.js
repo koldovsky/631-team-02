@@ -4,12 +4,8 @@ function show4Instruments(groups) {
   for (let elem of groups) {
     instrumentContainer.innerHTML += `<div>
       <div>
-        <a class="toProduct_${
-          elem.id
-        }"  href="page_product_image.html" data-id="id" onmouseover="localStorage.setItem('id', '${
-      elem.id
-    }')" >
-          <img src="${elem.image}"  alt="${elem.name}">
+        <a class="toProduct"  href="page_product_image.html" >
+          <img src="${elem.image}"  data-id=${elem.id} alt="${elem.name}">
         </a>
       </div>
       <div class=box_for_text>
@@ -26,7 +22,9 @@ function show4Instruments(groups) {
       </div>
     </div>`;
   }
+  setLocalId();
 }
+
 function currency_rate(rates) {
   const cur = document.querySelector(".exchange");
   for (pops in rates) {
@@ -64,13 +62,12 @@ async function getJsons(url) {
   const responce = await fetch(url);
   return await responce.json();
 }
+
 async function convertCurrency() {
   const convertTo = document.querySelector(".exchange").value;
-
   const currencies = await getJsons(
     "https://api.exchangerate-api.com/v4/latest/USD"
   );
-
   const rate = currencies.rates[convertTo];
   const instruments = await instrumentsS.getInstruments();
   sessionStorage.setItem("curency", convertTo);
@@ -82,4 +79,15 @@ async function convertCurrency() {
   currency_rate(currencies.rates);
   load4Instruments();
 }
+
 document.querySelector(".exchange").addEventListener("click", convertCurrency);
+
+function localId(ev) {
+  let instrumentId = ev.target.dataset.id;
+  localStorage["id"] = instrumentId;
+}
+function setLocalId() {
+  document
+    .querySelectorAll(".toProduct")
+    .forEach((button) => button.addEventListener("click", (ev) => localId(ev)));
+}

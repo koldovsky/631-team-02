@@ -82,23 +82,21 @@ div.shop_product div.shop_button_section {
   margin-left: 21%;
   margin-bottom: 20px;
 }
-/* .shop_product .exch_button {
-  
-  justify-content: center;
-} */
+
 .shop_product .exchange {
   display: flex;
   font-family: var(--font_site);
-  font-size: 13px;
+  font-size: 15px;
   color: white;
   border-color: var(--font_color_yellow);
   background-color: var(--font_color_yellow);
   font-weight: bold;
   width: 460px;
   margin: auto;
-  box-shadow: none;
 }
-
+.shop_product .exchange:visited {
+  background-color: white;
+}
 .line_product_divider {
   margin-top: -20px;
 }

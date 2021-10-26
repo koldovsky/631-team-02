@@ -50,10 +50,9 @@ function show1instrument(page) {
 `;
 }
 
-async function loadInstrument() {
+async function loadInstrument(instrumentsS) {
   const instruments = await instrumentsS.getInstruments();
   show1instrument(instruments[`${localStorage.getItem("id")}`]);
-
   localStorage.setItem(
     "addimage",
     instruments[`${localStorage.getItem("id")}`]["additionalImages"]
@@ -65,4 +64,4 @@ async function loadInstrument() {
   btnPrevSign.addEventListener("click", prevBigSlide);
   sessionStorage.clear();
 }
-loadInstrument();
+loadInstrument(instrumentsS);
