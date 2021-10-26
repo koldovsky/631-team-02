@@ -26,7 +26,9 @@ function show1instrument(page) {
         <p>Product code ${page.code}</p>
       </div>
       <div>
-        <h5>$${page.price}<h5>
+        <h5>${(
+          page.price * sessionStorage.getItem("rate") || page.price
+        ).toFixed(0)}.00  ${sessionStorage.getItem("curency") || "USD"}<h5>
       </div>
       <hr></hr>
       <div class="button_container">
@@ -50,7 +52,6 @@ function show1instrument(page) {
 
 async function loadInstrument() {
   const instruments = await instrumentsS.getInstruments();
-
   show1instrument(instruments[`${localStorage.getItem("id")}`]);
 
   localStorage.setItem(
@@ -62,5 +63,6 @@ async function loadInstrument() {
   btnNextSign.addEventListener("click", nextBigSlide);
   const btnPrevSign = document.querySelector(".carusel_1 .btnPrev1");
   btnPrevSign.addEventListener("click", prevBigSlide);
+  sessionStorage.clear();
 }
 loadInstrument();

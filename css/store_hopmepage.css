@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"); */
-
 .contacts_header {
   margin: 0px;
   background-color: var(--font_color_yellow);
@@ -46,7 +44,7 @@
 
 .header_background {
   background-color: var(--font_color_yellow);
-  height: 76px;
+  height: 72px;
 }
 .headers {
   height: 100%;
