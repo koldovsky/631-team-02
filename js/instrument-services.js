@@ -9,5 +9,9 @@ class InstrumentsService {
     }
     return this.instruments;
   }
+  async getInstrumentById(id) {
+    const instruments = await this.getInstruments();
+    return instruments.find((instrument) => instrument.id === id);
+  }
 }
 const instrumentsS = new InstrumentsService();

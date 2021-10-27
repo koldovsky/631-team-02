@@ -10,7 +10,7 @@ function showCurrentBigSlide() {
     currentSmallSlide
   ];
 }
-
+modalW();
 function nextBigSlide() {
   currentBigSlide++;
   currentSmallSlide++;

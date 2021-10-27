@@ -18,7 +18,9 @@ function show4Instruments(groups) {
       
       </div>
       <div>
-        <button type="button" class="button_add_cart"'>Add to Cart</button>
+        <button type="button" class="button_add_cart" class="btn btn-primary buy" data-id="${
+          elem.id
+        }"'>Add to Cart</button>
       </div>
     </div>`;
   }
@@ -31,6 +33,7 @@ function currency_rate(rates) {
     cur.innerHTML += `<option>${pops}</option>`;
   }
 }
+
 async function load4Instruments() {
   const instruments = await instrumentsS.getInstruments();
   document
@@ -80,14 +83,16 @@ async function convertCurrency() {
   load4Instruments();
 }
 
-document.querySelector(".exchange").addEventListener("click", convertCurrency);
-
 function localId(ev) {
   let instrumentId = ev.target.dataset.id;
   localStorage["id"] = instrumentId;
 }
+
 function setLocalId() {
   document
     .querySelectorAll(".toProduct")
     .forEach((button) => button.addEventListener("click", (ev) => localId(ev)));
+  document
+    .querySelector(".exchange")
+    .addEventListener("click", convertCurrency);
 }
