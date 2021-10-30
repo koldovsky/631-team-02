@@ -8,7 +8,7 @@ function show1instrument(page) {
             <div class="big_image " >
               <img  src="${
                 page.image
-              }" data-bs-toggle="modal" data-bs-target="#productInfoModal" alt="${
+              }" class=".btn-info"data-bs-toggle="modal" data-bs-target="#productInfoModal" alt="${
     page.name
   }" >
               </img>
@@ -101,7 +101,7 @@ async function handleInstrumentInfoClick() {
 
 function modalW() {
   document
-    .querySelector(".carusel_1 .big_image")
+    .querySelector(".carusel_1 .btn-info")
     .addEventListener("click", handleInstrumentInfoClick);
 }
 handleInstrumentInfoClick();

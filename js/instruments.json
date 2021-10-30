@@ -22,8 +22,8 @@
     "additionalImages":[
          "<img src='img/electric_guitar_ER100.jpg' alt='Dickson Studio ER100 Electric Guitar'>",
          "<img src='img/electric_guitar_TRO4506.jpg' alt='Dean Doe TRO4506 Electric Guitar'>",
-         "<img src='img/electric_guitar_RT45.jpg' alt='Raven Classic RT45 Electric Guitar'>",
-         "<img src='img/electric_guitar_RB500.jpg' alt='Raven Classic RT45 Electric Guitar'>"
+         "<img src='img/electric_guitar_RT45.jpg'  alt='Raven Classic RT45 Electric Guitar'>",
+         "<img src='img/electric_guitar_RB500.jpg'  alt='Raven Classic RT45 Electric Guitar'>"
       ],
       "price":180.0,
       "type": "electric",
@@ -36,10 +36,10 @@
       "name":"Dean Doe TRO4506 Electric Guitar",
       "image":"img/electric_guitar_TRO4506.jpg",
     "additionalImages":[
-         "<img src='img/electric_guitar_ER100.jpg' alt='Dickson Studio ER100 Electric Guitar'>",
-         "<img src='img/electric_guitar_RT45.jpg' alt='Raven Classic RT45 Electric Guitar'>",
-         "<img src='img/electric_guitar_RB500.jpg' alt='Raven Classic RT45 Electric Guitar'>",
-         "<img src='img/electric_guitar_TRO4506.jpg' alt='Dean Doe TRO4506 Electric Guitar'>"
+         "<img src='img/electric_guitar_ER100.jpg' class='btn-info' alt='Dickson Studio ER100 Electric Guitar'>",
+         "<img src='img/electric_guitar_RT45.jpg' class='btn-info' alt='Raven Classic RT45 Electric Guitar'>",
+         "<img src='img/electric_guitar_RB500.jpg' class='btn-info' alt='Raven Classic RT45 Electric Guitar'>",
+         "<img src='img/electric_guitar_TRO4506.jpg' class='btn-info' alt='Dean Doe TRO4506 Electric Guitar'>"
       ],
       "price":220.0,
       "type": "electric",

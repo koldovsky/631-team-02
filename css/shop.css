@@ -18,7 +18,7 @@ section.shop div.shop_title h2 {
 }
 section.shop div.shop_title {
   margin-top: 6em;
-  margin-bottom: 40px;
+  margin-bottom: 2em;
 }
 section.shop div.shop_title h3 {
   color: #242424;
@@ -39,12 +39,12 @@ section.shop div.shop_title h3 span {
 
 section.shop div.shop_title p {
   color: #777;
-  font-size: 18px;
+  font-size: 1.1em;
   font-family: "Work Sans", sans-serif;
   text-align: center;
 }
 div.shop_product div.shop_button_section div button {
-  height: 60px;
+  height: 50px;
   border-color: #fff;
   border-style: double;
   background-color: #fff;
@@ -90,13 +90,13 @@ div.shop_product div.shop_button_section {
   color: white;
   border-color: var(--font_color_yellow);
   background-color: var(--font_color_yellow);
-  font-weight: bold;
-  width: 460px;
-  margin: auto;
+  width: 100%;
+  margin: auto auto auto auto;
 }
-.shop_product .exchange:visited {
+/* .shop_product .exchange:hover {
+  color: var(--font_color_yellow);
   background-color: white;
-}
+} */
 .line_product_divider {
   margin-top: -20px;
 }
@@ -138,7 +138,10 @@ div.shop_product div.shop_button_section {
   background-color: var(--font_color_black);
   color: #fff;
   border: var(--font_color_black);
-  border-radius: 5%;
+  border-radius: 8%;
+}
+.selection_instruments div button:hover {
+  background-color: #f8b803;
 }
 @media (min-width: 640px) {
   .selection_instruments {
